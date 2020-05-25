@@ -1,0 +1,52 @@
+======================
+Build Status
+======================
+
+
+=======================  ===================================================================================================  =========================================================================================  ==================================================================================================
+domdf_python_tools       .. image:: https://img.shields.io/travis/com/domdfcoding/domdf_python_tools/master?logo=travis       .. image:: https://readthedocs.org/projects/domdf_python_tools/badge/?version=latest
+                             :target: https://travis-ci.com/domdfcoding/domdf_python_tools                                        :target: https://domdf_python_tools.readthedocs.io/en/latest/?badge=latest
+                             :alt: domdf_python_tools build status (Travis CI)                                                    :alt: domdf_python_tools documentation status
+domdf_wxpython_tools     .. image:: https://img.shields.io/travis/com/domdfcoding/domdf_wxpython_tools/master?logo=travis     .. image:: https://readthedocs.org/projects/domdf_wxpython_tools/badge/?version=latest
+                             :target: https://travis-ci.com/domdfcoding/domdf_wxpython_tools                                      :target: https://domdf_wxpython_tools.readthedocs.io/en/latest/?badge=latest
+                             :alt: domdf_wxpython_tools build status (Travis CI)                                                  :alt: domdf_wxpython_tools documentation status
+domdf_spreadsheet_tools  .. image:: https://img.shields.io/travis/com/domdfcoding/domdf_spreadsheet_tools/master?logo=travis  .. image:: https://readthedocs.org/projects/domdf_spreadsheet_tools/badge/?version=latest
+                             :target: https://travis-ci.com/domdfcoding/domdf_spreadsheet_tools                                   :target: https://domdf_spreadsheet_tools.readthedocs.io/en/latest/?badge=latest
+                             :alt: domdf_spreadsheet_tools build status (Travis CI)                                               :alt: domdf_spreadsheet_tools documentation status
+chemistry_tools          .. image:: https://img.shields.io/travis/com/domdfcoding/chemistry_tools/master?logo=travis          .. image:: https://readthedocs.org/projects/chemistry_tools/badge/?version=latest
+                             :target: https://travis-ci.com/domdfcoding/chemistry_tools                                           :target: https://chemistry_tools.readthedocs.io/en/latest/?badge=latest
+                             :alt: chemistry_tools build status (Travis CI)                                                       :alt: chemistry_tools documentation status
+mathematical             .. image:: https://img.shields.io/travis/com/domdfcoding/mathematical/master?logo=travis             .. image:: https://readthedocs.org/projects/mathematical/badge/?version=latest
+                             :target: https://travis-ci.com/domdfcoding/mathematical                                              :target: https://mathematical.readthedocs.io/en/latest/?badge=latest
+                             :alt: mathematical build status (Travis CI)                                                          :alt: mathematical documentation status
+Cawdrey                  .. image:: https://img.shields.io/travis/domdfcoding/Cawdrey/master?logo=travis                      .. image:: https://readthedocs.org/projects/cawdrey/badge/?version=latest
+                             :target: https://travis-ci.org/domdfcoding/Cawdrey                                                   :target: https://cawdrey.readthedocs.io/en/latest/?badge=latest
+                             :alt: Cawdrey build status (Travis CI)                                                               :alt: Cawdrey documentation status
+singledispatch-json      .. image:: https://img.shields.io/travis/com/domdfcoding/singledispatch-json/master?logo=travis      .. image:: https://readthedocs.org/projects/singledispatch-json/badge/?version=latest
+                             :target: https://travis-ci.com/domdfcoding/singledispatch-json                                       :target: https://singledispatch-json.readthedocs.io/en/latest/?badge=latest
+                             :alt: singledispatch-json build status (Travis CI)                                                   :alt: singledispatch-json documentation status
+PyMassSpec               .. image:: https://img.shields.io/travis/domdfcoding/PyMassSpec/master?logo=travis                   .. image:: https://readthedocs.org/projects/pymassspec/badge/?version=latest               .. image:: https://img.shields.io/appveyor/build/domdfcoding/PyMassSpec/master?logo=appveyor
+                             :target: https://travis-ci.org/domdfcoding/PyMassSpec                                                :target: https://pymassspec.readthedocs.io/en/latest/?badge=latest                         :target: https://ci.appveyor.com/project/domdfcoding/PyMassSpec
+                             :alt: PyMassSpec build status (Travis CI)                                                            :alt: PyMassSpec documentation status                                                      :alt: PyMassSpec build status (Appveyor)
+pyms-nist-search                                                                                                              .. image:: https://readthedocs.org/projects/pyms-nist-search/badge/?version=latest         .. image:: https://img.shields.io/appveyor/build/domdfcoding/pyms-nist-search/master?logo=appveyor
+                                                                                                                                  :target: https://pyms-nist-search.readthedocs.io/en/latest/?badge=latest                   :target: https://ci.appveyor.com/project/domdfcoding/pyms-nist-search
+                                                                                                                                  :alt: pyms-nist-search documentation status                                                :alt: pyms-nist-search build status (Appveyor)
+msp2lib                  .. image:: https://img.shields.io/travis/com/domdfcoding/msp2lib/master?logo=travis                  .. image:: https://readthedocs.org/projects/msp2lib/badge/?version=latest                  .. image:: https://img.shields.io/appveyor/build/domdfcoding/msp2lib/master?logo=appveyor
+                             :target: https://travis-ci.com/domdfcoding/msp2lib                                                   :target: https://msp2lib.readthedocs.io/en/latest/?badge=latest                            :target: https://ci.appveyor.com/project/domdfcoding/msp2lib
+                             :alt: msp2lib build status (Travis CI)                                                               :alt: msp2lib documentation status                                                         :alt: msp2lib build status (Appveyor)
+rsc-on-this-day          .. image:: https://img.shields.io/travis/com/domdfcoding/rsc-on-this-day/master?logo=travis          .. image:: https://readthedocs.org/projects/rsc-on-this-day/badge/?version=latest
+                             :target: https://travis-ci.com/domdfcoding/rsc-on-this-day                                           :target: https://rsc-on-this-day.readthedocs.io/en/latest/?badge=latest
+                             :alt: rsc-on-this-day build status (Travis CI)                                                       :alt: rsc-on-this-day documentation status
+custom_wx_icons          .. image:: https://img.shields.io/travis/com/domdfcoding/custom_wx_icons/master?logo=travis          .. image:: https://readthedocs.org/projects/custom_wx_icons/badge/?version=latest
+                             :target: https://travis-ci.com/domdfcoding/custom_wx_icons                                           :target: https://custom_wx_icons.readthedocs.io/en/latest/?badge=latest
+                             :alt: custom_wx_icons build status (Travis CI)                                                       :alt: custom_wx_icons documentation status
+wxIconSaver              .. image:: https://img.shields.io/travis/com/domdfcoding/wxIconSaver/master?logo=travis              .. image:: https://readthedocs.org/projects/wxIconSaver/badge/?version=latest
+                             :target: https://travis-ci.com/domdfcoding/wxIconSaver                                               :target: https://wxIconSaver.readthedocs.io/en/latest/?badge=latest
+                             :alt: wxIconSaver build status (Travis CI)                                                           :alt: wxIconSaver documentation status
+PySetWacom               .. image:: https://img.shields.io/travis/com/domdfcoding/PySetWacom/master?logo=travis               .. image:: https://readthedocs.org/projects/PySetWacom/badge/?version=latest
+                             :target: https://travis-ci.com/domdfcoding/PySetWacom                                                :target: https://PySetWacom.readthedocs.io/en/latest/?badge=latest
+                             :alt: PySetWacom build status (Travis CI)                                                            :alt: PySetWacom documentation status
+dummy_wx                 .. image:: https://img.shields.io/travis/com/domdfcoding/dummy_wx/master?logo=travis                 .. image:: https://readthedocs.org/projects/dummy_wx/badge/?version=latest
+                             :target: https://travis-ci.com/domdfcoding/dummy_wx                                                  :target: https://dummy_wx.readthedocs.io/en/latest/?badge=latest
+                             :alt: dummy_wx build status (Travis CI)                                                              :alt: dummy_wx documentation status
+=======================  ===================================================================================================  =========================================================================================  ==================================================================================================
