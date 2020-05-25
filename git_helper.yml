@@ -1,0 +1,28 @@
+modname: "domdfcoding.github.io"
+copyright_years: "2020"
+author: "Dominic Davis-Foster"
+email: "dominic@davis-foster.co.uk"
+version: "0.0.1"
+username: "domdfcoding"
+license: 'LGPLv3+'
+short_desc: ''
+
+enable_tests: False
+enable_conda: False
+
+exclude_files:
+  - copy_pypi_2_github
+  - stale_bot
+  - auto_assign
+  - readme
+  - pylintrc
+  - setup
+  - pkginfo
+  - conf
+  - travis
+  - test_requirements
+  - bumpversion
+  - manifest
+  - issue_templates
+
+python_deploy_version: "3.6"
