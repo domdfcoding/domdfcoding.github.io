@@ -1,4 +1,5 @@
-# Copyright (C) 2019-2020 Dominic Davis-Foster <dominic@davis-foster.co.uk>
+# This file is managed by `git_helper`. Don't edit it directly
+# Copyright (C) 2020 Dominic Davis-Foster <dominic@davis-foster.co.uk>
 #
 #  This program is free software: you can redistribute it and/or modify
 #  it under the terms of the GNU General Public License as published by
@@ -17,26 +18,73 @@
 
 import pathlib
 
+__all__ = [
+		"__copyright__",
+		"__version__",
+		"modname",
+		"pypi_name",
+		"py_modules",
+		"entry_points",
+		"__license__",
+		"short_desc",
+		"author",
+		"author_email",
+		"github_username",
+		"web",
+		"github_url",
+		"project_urls",
+		"repo_root",
+		"long_description",
+		"install_requires",
+		"extras_require",
+		"classifiers",
+		"keywords",
+		"import_name",
+		]
+
 __copyright__ = """
 2020 Dominic Davis-Foster <dominic@davis-foster.co.uk>
 """
 
-__version__ = "2020.05.06"
+__version__ = "0.0.1"
 
-short_desc = 'description goes here'
+modname = "domdfcoding"
+pypi_name = "domdfcoding"
+import_name = "."
+py_modules = []
+entry_points = {
+		"console_scripts": []
+		}
 
-__author__ = "Dominic Davis-Foster"
+__license__ = "GNU Lesser General Public License v3 or later (LGPLv3+)"
+
+short_desc = ""
+
+__author__ = author = "Dominic Davis-Foster"
 author_email = "dominic@davis-foster.co.uk"
-modname = github_username = "domdfcoding"
-
-web = github_url = f"https://github.com/{github_username}/{modname}.github.io"
+github_username = "domdfcoding"
+web = github_url = f"https://github.com/domdfcoding/domdfcoding"
 project_urls = {
-		"Documentation": f"https://{modname}.readthedocs.io",  # TODO: Make this link match the package version
+		"Documentation": f"https://domdfcoding.readthedocs.io",  # TODO: Make this link match the package version
 		"Issue Tracker": f"{github_url}/issues",
 		"Source Code": github_url,
 		}
 
 repo_root = pathlib.Path(__file__).parent
 
-install_requires = (repo_root / "requirements.txt").read_text().split("\n")
-long_description = (repo_root / "README.rst").read_text() + '\n'
+# Get info from files; set: long_description
+long_description = (repo_root / "README.rst").read_text().replace("0.0.1", __version__) + '\n'
+
+install_requires = (repo_root / "requirements.txt").read_text().split('\n')
+extras_require = {'all': []}
+
+classifiers = [
+		'Programming Language :: Python :: 3.6',
+		'Programming Language :: Python :: Implementation :: CPython',
+		'Programming Language :: Python',
+		'Programming Language :: Python :: 3 :: Only',
+		'License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)',
+
+		]
+
+keywords = ""

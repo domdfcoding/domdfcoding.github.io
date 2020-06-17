@@ -85,10 +85,10 @@
 <!-- /extrahead -->
     <script src="{{ pathto('_static/js/modernizr.min.js', 1) }}"></script>
 {% if theme_docstypo3org -%}
-<!-- UNIVERSE BAR START -->
-    <script src="https://typo3.azureedge.net/typo3infrastructure/universe/dist/webcomponents-loader.js"></script>
-    <script type="module" src="https://typo3.azureedge.net/typo3infrastructure/universe/dist/typo3-universe.js"></script>
-<!-- UNIVERSE BAR END -->
+<!--&lt;!&ndash; UNIVERSE BAR START &ndash;&gt;-->
+<!--    <script src="https://typo3.azureedge.net/typo3infrastructure/universe/dist/webcomponents-loader.js"></script>-->
+<!--    <script type="module" src="https://typo3.azureedge.net/typo3infrastructure/universe/dist/typo3-universe.js"></script>-->
+<!--&lt;!&ndash; UNIVERSE BAR END &ndash;&gt;-->
 {%- endif %}
 </head>
 
@@ -99,11 +99,11 @@
         <div class="page-topbar">
             <div class="page-topbar-inner">
                 {%- block pagetopbar %}
-                <!-- UNIVERSE BAR START -->
-                <typo3-universe active="documentation">
-                    <div style="display: block; height: 44px; background-color: #313131;"></div>
-                </typo3-universe>
-                <!-- UNIVERSE BAR END -->
+<!--                &lt;!&ndash; UNIVERSE BAR START &ndash;&gt;-->
+<!--                <typo3-universe active="documentation">-->
+<!--                    <div style="display: block; height: 44px; background-color: #313131;"></div>-->
+<!--                </typo3-universe>-->
+<!--                &lt;!&ndash; UNIVERSE BAR END &ndash;&gt;-->
                 {%- endblock %}
             </div>
         </div>
@@ -130,13 +130,7 @@
                         <input type="checkbox" id="toggleToc" class="toc-checkbox">
                         <div class="toc-header">
                             <div class="toc-title">
-                                <a class="toc-title-project" href="{{ pathto(master_doc) }}">{{ project|e }}</a>
-                                <img src="{{ pathto('_static/' + logo, 1) }}"
-                                     {%- if logo_width %} width="{{ logo_width|e }}"{% endif %}
-                                     {%- if logo_height %} height="{{ logo_height|e }}"{% endif %}
-                                     {%- if logo_alt %} alt="profile picture"{% endif %}
-                                     {%- if logo_title and not logo_url %} title="{{ logo_title|e }}"{% endif %}
-                                     {%- if 1 %} class="logo-image" />{% endif %}
+								<a class="toc-title-project" href="{{ pathto(master_doc) }}">{{ project|e }}</a>
                                 </div>
                             <div class="toc-actions">
                                 <label for="toggleToc" class="toc-toggle">
@@ -145,6 +139,14 @@
                             </div>
                         </div>
                         <div class="toc-collapse">
+														<br>
+
+                                <img src="{{ pathto('_static/' + logo, 1) }}"
+                                     {%- if logo_width %} width="{{ logo_width|e }}"{% endif %}
+                                     {%- if logo_height %} height="{{ logo_height|e }}"{% endif %}
+                                     {%- if logo_alt %} alt="profile picture"{% endif %}
+                                     {%- if logo_title and not logo_url %} title="{{ logo_title|e }}"{% endif %}
+                                     {%- if 1 %} class="logo-image" />{% endif %}
                             {%- if not theme_is_homepage and builder == 'html' %}
 <!-- searchbox.html -->
 {%- include "searchbox.html" %}

@@ -1,5 +1,19 @@
 /* This file is managed by `git_helper`. Don't edit it directly */
 
-.wy-nav-content {max-width: 900px !important;}
+/*li p:last-child { margin-bottom: 12px !important;}*/
 
-li p:last-child { margin-bottom: 12px !important;}
+img.logo-image {
+    max-width: 200px;
+}
+
+@media (min-width: 996px) {
+ .toc-collapse {
+  display:block
+ }
+}
+
+@media screen and (max-width: 996px) {
+    img.logo-image {
+        display: none !important;
+    }
+}

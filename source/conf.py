@@ -65,6 +65,7 @@ html_theme_path = ["../.."]
 html_logo = "profile_pic.jpeg"
 html_show_sourcelink = False  # True will show link to source
 
+
 html_context = {
 		# Github Settings
 		"display_github": False,  # Integrate GitHub
@@ -73,7 +74,9 @@ html_context = {
 		"github_version": "master",  # Version
 		"conf_py_path": "/",  # Path in the checkout to the docs root
 		"theme_docstypo3org": True,
-		"theme_project_home": "https://www.github.com/domdfcoding"
+		"theme_project_home": "https://www.github.com/domdfcoding",
+		"logo_width": 500,
+		"logo_height": 500,
 		}
 
 htmlhelp_basename = slug

@@ -1,4 +1,4 @@
-modname: "domdfcoding.github.io"
+modname: "domdfcoding"
 import_name: "."
 copyright_years: "2020"
 author: "Dominic Davis-Foster"
@@ -14,17 +14,18 @@ preserve_custom_theme: True
 enable_tests: False
 enable_conda: False
 
+sphinx_html_theme: sphinx-typo3-theme
+
 exclude_files:
   - copy_pypi_2_github
   - stale_bot
   - auto_assign
-  - setup
-  - pkginfo
   - conf
   - travis
+#  - doc_requirements
   - test_requirements
   - bumpversion
-  - manifest
   - issue_templates
+  - tox
 
 python_deploy_version: "3.6"
