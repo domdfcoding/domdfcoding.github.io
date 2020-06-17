@@ -12,12 +12,12 @@ Science, Technology, Video Games and Wargaming. Linux fanboy.
 
 
 .. toctree::
-	:caption: Table of Contents
 	:hidden:
 
 	Home<self>
 
 .. toctree::
+	:caption: Table of Contents
 	:maxdepth: 3
 
 	projects
