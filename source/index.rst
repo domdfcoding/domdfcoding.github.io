@@ -5,12 +5,9 @@ Dominic Davis-Foster
 domdfcoding
 -------------
 
-A short description about myself is supposed to be here
+Forensic Science researcher at `Staffordshire University <https://www.staffs.ac.uk/about/schools/law-policing-and-forensics>`_ in the UK. Carrying out research into `Organic Gunshot Residue <http://dominic.davis-foster.co.uk/Publications/Identifying%20the%20Brand%20of%20Ammunition%20from%20Gunshot%20Residue%20-%20Double%20Sided.pdf>`_.
 
-
-Projects
-----------
-
+Science, Technology, Video Games and Wargaming. Linux fanboy.
 
 
 .. toctree::
@@ -25,5 +22,3 @@ Projects
     build_status
 
 ..     API Reference<docs>
-    Source
-    Building
