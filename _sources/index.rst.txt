@@ -10,15 +10,17 @@ Forensic Science researcher at `Staffordshire University <https://www.staffs.ac.
 Science, Technology, Video Games and Wargaming. Linux fanboy.
 
 
-.. toctree::
-    :hidden:
-
-    Home<self>
 
 .. toctree::
-    :maxdepth: 3
+	:caption: Table of Contents
+	:hidden:
 
-    projects
-    build_status
+	Home<self>
 
-..     API Reference<docs>
+.. toctree::
+	:maxdepth: 3
+
+	projects
+	build_status
+
+..   API Reference<docs>
