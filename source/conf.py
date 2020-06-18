@@ -82,7 +82,7 @@ intersphinx_mapping = {
 		'domdf_python_tools': ('https://domdf_python_tools.rtfd.io/en/latest/', None),
 		}
 
-html_theme = 'sphinx-typo3-theme'
+html_theme = 'sphinx_typo3_theme'
 html_theme_options = {
 		'logo_only': False,
 		}
