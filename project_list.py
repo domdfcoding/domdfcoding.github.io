@@ -1,10 +1,15 @@
+import pathlib
+
+repos_dir = pathlib.Path("/media/VIDEO/Syncthing/Python/01 GitHub Repos").absolute()
+
+
 project_list = [
 		#### "better_enum",
 		"cawdrey",
 		# "chemistry_tools",  # TODO: waiting on better_enum
 		#### "custom_wx_icons",
 		"custom_wx_icons_adwaita",
-		# "custom_wx_icons_hicolor",  # TODO: waiting on Mom
+		"custom_wx_icons_hicolor",
 		"custom_wx_icons_humanity",
 		"custom_wx_icons_suru",
 		"custom_wx_icons_tango",
@@ -27,7 +32,7 @@ project_list = [
 		#### "Python_Modules",
 		"pyupgrade-directories",
 		#### "pywine-pyms-nist",  # todo: Can't use git_helper
-		# "singledispatch-json", # TODO: waiting on Mom
+		"singledispatch-json",
 		#### "si_unit_pandas",
 		"webcolors-stubs",
 		"whiptail",

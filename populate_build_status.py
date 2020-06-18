@@ -1,3 +1,7 @@
+from git_helper import GitHelper
+from git_helper.shields import make_rtfd_shield, make_travis_shield
+from project_list import project_list, repos_dir
+
 import tabulate
 
 header = """\
@@ -58,46 +62,36 @@ class Project:
     :alt: {self.name} build status (Appveyor)\
 """
 
-
 	@property
 	def travis_badge(self):
-		if self.travis_site != "com":
-			svg_url = f"https://img.shields.io/travis/domdfcoding/{self.travis_name}/master?logo=travis"
-		else:
-			svg_url = f"https://img.shields.io/travis/{self.travis_site}/domdfcoding/{self.travis_name}/master?logo=travis"
-		
-		return f"""
-.. image:: {svg_url}
-    :target: https://travis-ci.{self.travis_site}/domdfcoding/{self.travis_name}
-    :alt: {self.name} build status (Travis CI)\
-"""
-	
+		return make_travis_shield(self.travis_name, "domdfcoding", self.travis_site)
+
 	@property
 	def rtfd_badge(self):
-		
-		return f"""
-.. image:: https://readthedocs.org/projects/{self.rtfd_name}/badge/?version=latest
-    :target: https://{self.rtfd_name}.readthedocs.io/en/latest/?badge=latest
-    :alt: {self.name} documentation status\
-"""
+		return make_rtfd_shield(self.rtfd_name)
 
-projects = [
-		Project("domdf_python_tools"),
-		Project("domdf_wxpython_tools"),
-		Project("domdf_spreadsheet_tools"),
-		Project("chemistry_tools"),
-		Project("mathematical"),
+
+projects = []
+
+
+for repo in project_list:
+	gh = GitHelper(repos_dir / repo)
+	projects.append(
+			Project(
+					gh.templates.globals["repo_name"],
+					rtfd_name=gh.templates.globals["repo_name"],
+					travis_site=gh.templates.globals["travis_site"],
+
+					))
+
+
+
+projects += [
 		Project("Cawdrey", travis_site="org", rtfd_name="cawdrey"),
-		Project("singledispatch-json"),
 
 		Project("PyMassSpec", travis_site="org", appveyor=True, rtfd_name="pymassspec"),
 		Project("pyms-nist-search", travis=False, appveyor=True),
 		Project("msp2lib", appveyor=True),
-		Project("rsc-on-this-day"),
-		Project("custom_wx_icons"),
-		Project("wxIconSaver"),
-		Project("PySetWacom"),
-		Project("dummy_wx"),
 		]
 
 table = tabulate.tabulate([project.table_data() for project in projects], tablefmt="rst")

@@ -115,7 +115,7 @@ Read the `documentation <https://cawdrey.rtfd.io>`_.
 	:alt: Conda - Package Version
 	:target: https://anaconda.org/domdfcoding/cawdrey
 
-.. |conda-platform_cawdrey| image:: image:: https://img.shields.io/conda/pn/domdfcoding/cawdrey?label=conda%7Cplatform
+.. |conda-platform_cawdrey| image:: https://img.shields.io/conda/pn/domdfcoding/cawdrey?label=conda%7Cplatform
 	:alt: Conda - Platform
 	:target: https://anaconda.org/domdfcoding/cawdrey
 
@@ -126,7 +126,7 @@ Read the `documentation <https://cawdrey.rtfd.io>`_.
 .. |language_cawdrey| image:: https://img.shields.io/github/languages/top/domdfcoding/cawdrey
 	:alt: GitHub top language
 
-.. |commits-since_cawdrey| image:: https://img.shields.io/github/commits-since/domdfcoding/cawdrey/v0.1.5
+.. |commits-since_cawdrey| image:: https://img.shields.io/github/commits-since/domdfcoding/cawdrey/v0.1.6
 	:target: https://github.com/domdfcoding/cawdrey/pulse
 	:alt: GitHub commits since tagged version
 
@@ -371,21 +371,35 @@ Read the `documentation <https://custom_wx_icons_hicolor.rtfd.io>`_.
 	:widths: 10 90
 
 	* - Docs
-	  - |docs_wx_icons_hicolor|
+	  - |docs_wx_icons_hicolor| |docs_check_wx_icons_hicolor|
 	* - Tests
-	  - |travis_wx_icons_hicolor| |requires_wx_icons_hicolor| |codefactor_wx_icons_hicolor|
+	  - |travis_wx_icons_hicolor| |actions_windows_wx_icons_hicolor| |actions_macos_wx_icons_hicolor| |codefactor_wx_icons_hicolor|
 	* - PyPI
 	  - |pypi-version_wx_icons_hicolor| |supported-versions_wx_icons_hicolor| |supported-implementations_wx_icons_hicolor| |wheel_wx_icons_hicolor|
+	* - Activity
+	  - |commits-latest_wx_icons_hicolor| |commits-since_wx_icons_hicolor| |maintained_wx_icons_hicolor|
 	* - Other
-	  - |license_wx_icons_hicolor| |language_wx_icons_hicolor| |commits-since_wx_icons_hicolor| |commits-latest_wx_icons_hicolor| |maintained_wx_icons_hicolor| 
+	  - |license_wx_icons_hicolor| |language_wx_icons_hicolor| |requires_wx_icons_hicolor|
 
 .. |docs_wx_icons_hicolor| image:: https://img.shields.io/readthedocs/custom_wx_icons_hicolor/latest?logo=read-the-docs
 	:target: https://custom_wx_icons_hicolor.readthedocs.io/en/latest/?badge=latest
 	:alt: Documentation Status
+	
+.. |docs_check_wx_icons_hicolor| image:: https://github.com/domdfcoding/custom_wx_icons_hicolor/workflows/Docs%20Check/badge.svg
+	:target: https://github.com/domdfcoding/custom_wx_icons_hicolor/actions?query=workflow%3A%22Docs+Check%22
+	:alt: Docs Check Status
 
 .. |travis_wx_icons_hicolor| image:: https://img.shields.io/travis/com/domdfcoding/custom_wx_icons_hicolor/master?logo=travis
 	:target: https://travis-ci.com/domdfcoding/custom_wx_icons_hicolor
 	:alt: Travis Build Status
+
+.. |actions_windows_wx_icons_hicolor| image:: https://github.com/domdfcoding/custom_wx_icons_hicolor/workflows/Windows%20Tests/badge.svg
+	:target: https://github.com/domdfcoding/custom_wx_icons_hicolor/actions?query=workflow%3A%22Windows+Tests%22
+	:alt: Windows Tests Status
+
+.. |actions_macos_wx_icons_hicolor| image:: https://github.com/domdfcoding/custom_wx_icons_hicolor/workflows/macOS%20Tests/badge.svg
+	:target: https://github.com/domdfcoding/custom_wx_icons_hicolor/actions?query=workflow%3A%22macOS+Tests%22
+	:alt: macOS Tests Status
 
 .. |requires_wx_icons_hicolor| image:: https://requires.io/github/domdfcoding/custom_wx_icons_hicolor/requirements.svg?branch=master
 	:target: https://requires.io/github/domdfcoding/custom_wx_icons_hicolor/requirements/?branch=master
@@ -831,7 +845,7 @@ Read the `documentation <https://domdf_python_tools.rtfd.io>`_.
 	:alt: Conda - Package Version
 	:target: https://anaconda.org/domdfcoding/domdf_python_tools
 
-.. |conda-platform_domdf_python_tools| image:: image:: https://img.shields.io/conda/pn/domdfcoding/domdf_python_tools?label=conda%7Cplatform
+.. |conda-platform_domdf_python_tools| image:: https://img.shields.io/conda/pn/domdfcoding/domdf_python_tools?label=conda%7Cplatform
 	:alt: Conda - Platform
 	:target: https://anaconda.org/domdfcoding/domdf_python_tools
 
@@ -943,7 +957,7 @@ Read the `documentation <https://domdf_spreadsheet_tools.rtfd.io>`_.
 	:alt: Conda - Package Version
 	:target: https://anaconda.org/domdfcoding/domdf_spreadsheet_tools
 
-.. |conda-platform_domdf_spreadsheet_tools| image:: image:: https://img.shields.io/conda/pn/domdfcoding/domdf_spreadsheet_tools?label=conda%7Cplatform
+.. |conda-platform_domdf_spreadsheet_tools| image:: https://img.shields.io/conda/pn/domdfcoding/domdf_spreadsheet_tools?label=conda%7Cplatform
 	:alt: Conda - Platform
 	:target: https://anaconda.org/domdfcoding/domdf_spreadsheet_tools
 
@@ -1347,7 +1361,7 @@ Read the `documentation <https://mathematical.rtfd.io>`_.
 	:alt: Conda - Package Version
 	:target: https://anaconda.org/domdfcoding/mathematical
 
-.. |conda-platform_mathematical| image:: image:: https://img.shields.io/conda/pn/domdfcoding/mathematical?label=conda%7Cplatform
+.. |conda-platform_mathematical| image:: https://img.shields.io/conda/pn/domdfcoding/mathematical?label=conda%7Cplatform
 	:alt: Conda - Platform
 	:target: https://anaconda.org/domdfcoding/mathematical
 
@@ -1612,8 +1626,10 @@ Read the `documentation <https://pysetwacom.rtfd.io>`_.
 	:stub-columns: 1
 	:widths: 10 90
 
+	* - Docs
+	  - |docs_PySetWacom| |docs_check_PySetWacom|
 	* - Tests
-	  - |travis_PySetWacom| |actions_windows_PySetWacom| |actions_macos_PySetWacom| |codefactor_PySetWacom|
+	  - |travis_PySetWacom| |codefactor_PySetWacom|
 	* - PyPI
 	  - |pypi-version_PySetWacom| |supported-versions_PySetWacom| |supported-implementations_PySetWacom| |wheel_PySetWacom|
 	* - Activity
@@ -1621,19 +1637,17 @@ Read the `documentation <https://pysetwacom.rtfd.io>`_.
 	* - Other
 	  - |license_PySetWacom| |language_PySetWacom| |requires_PySetWacom|
 
-
+.. |docs_PySetWacom| image:: https://img.shields.io/readthedocs/pysetwacom/latest?logo=read-the-docs
+	:target: https://pysetwacom.readthedocs.io/en/latest/?badge=latest
+	:alt: Documentation Status
+	
+.. |docs_check_PySetWacom| image:: https://github.com/domdfcoding/PySetWacom/workflows/Docs%20Check/badge.svg
+	:target: https://github.com/domdfcoding/PySetWacom/actions?query=workflow%3A%22Docs+Check%22
+	:alt: Docs Check Status
 
 .. |travis_PySetWacom| image:: https://img.shields.io/travis/com/domdfcoding/PySetWacom/master?logo=travis
 	:target: https://travis-ci.com/domdfcoding/PySetWacom
 	:alt: Travis Build Status
-
-.. |actions_windows_PySetWacom| image:: https://github.com/domdfcoding/PySetWacom/workflows/Windows%20Tests/badge.svg
-	:target: https://github.com/domdfcoding/PySetWacom/actions?query=workflow%3A%22Windows+Tests%22
-	:alt: Windows Tests Status
-
-.. |actions_macos_PySetWacom| image:: https://github.com/domdfcoding/PySetWacom/workflows/macOS%20Tests/badge.svg
-	:target: https://github.com/domdfcoding/PySetWacom/actions?query=workflow%3A%22macOS+Tests%22
-	:alt: macOS Tests Status
 
 .. |requires_PySetWacom| image:: https://requires.io/github/domdfcoding/PySetWacom/requirements.svg?branch=master
 	:target: https://requires.io/github/domdfcoding/PySetWacom/requirements/?branch=master
@@ -1817,23 +1831,37 @@ Read the `documentation <https://singledispatch-json.rtfd.io>`_.
 	:widths: 10 90
 
 	* - Docs
-	  - |docs_sdjson|
+	  - |docs_sdjson| |docs_check_sdjson|
 	* - Tests
-	  - |travis_sdjson| |requires_sdjson| |coveralls_sdjson| |codefactor_sdjson|
+	  - |travis_sdjson| |actions_windows_sdjson| |actions_macos_sdjson| |coveralls_sdjson| |codefactor_sdjson|
 	* - PyPI
 	  - |pypi-version_sdjson| |supported-versions_sdjson| |supported-implementations_sdjson| |wheel_sdjson|
 	* - Anaconda
 	  - |conda-version_sdjson| |conda-platform_sdjson|
+	* - Activity
+	  - |commits-latest_sdjson| |commits-since_sdjson| |maintained_sdjson|
 	* - Other
-	  - |license_sdjson| |language_sdjson| |commits-since_sdjson| |commits-latest_sdjson| |maintained_sdjson| 
+	  - |license_sdjson| |language_sdjson| |requires_sdjson|
 
 .. |docs_sdjson| image:: https://img.shields.io/readthedocs/singledispatch-json/latest?logo=read-the-docs
 	:target: https://singledispatch-json.readthedocs.io/en/latest/?badge=latest
 	:alt: Documentation Status
+	
+.. |docs_check_sdjson| image:: https://github.com/domdfcoding/singledispatch-json/workflows/Docs%20Check/badge.svg
+	:target: https://github.com/domdfcoding/singledispatch-json/actions?query=workflow%3A%22Docs+Check%22
+	:alt: Docs Check Status
 
 .. |travis_sdjson| image:: https://img.shields.io/travis/com/domdfcoding/singledispatch-json/master?logo=travis
 	:target: https://travis-ci.com/domdfcoding/singledispatch-json
 	:alt: Travis Build Status
+
+.. |actions_windows_sdjson| image:: https://github.com/domdfcoding/singledispatch-json/workflows/Windows%20Tests/badge.svg
+	:target: https://github.com/domdfcoding/singledispatch-json/actions?query=workflow%3A%22Windows+Tests%22
+	:alt: Windows Tests Status
+
+.. |actions_macos_sdjson| image:: https://github.com/domdfcoding/singledispatch-json/workflows/macOS%20Tests/badge.svg
+	:target: https://github.com/domdfcoding/singledispatch-json/actions?query=workflow%3A%22macOS+Tests%22
+	:alt: macOS Tests Status
 
 .. |requires_sdjson| image:: https://requires.io/github/domdfcoding/singledispatch-json/requirements.svg?branch=master
 	:target: https://requires.io/github/domdfcoding/singledispatch-json/requirements/?branch=master

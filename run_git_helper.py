@@ -20,22 +20,23 @@
 #  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
 #  MA 02110-1301, USA.
 #
+
+# stdlib
 import os
 import pathlib
 import sys
 
+# 3rd party
 from git_helper.core import GitHelper
 from git_helper.__main__ import commit_changed_files
 from git_helper.utils import get_git_status, check_git_status
 
-from project_list import project_list
-
-repos_dir = pathlib.Path("/media/VIDEO/Syncthing/Python/01 GitHub Repos").absolute()
+# this package
+from project_list import project_list, repos_dir
 
 
 def git_push(repo_path: pathlib.Path) -> int:
 	"""
-	Check the ``git`` status of the given repository
 
 	:param repo_path: Path to the repository root
 	:type repo_path: pathlib.Path
@@ -51,28 +52,30 @@ def git_push(repo_path: pathlib.Path) -> int:
 	return ret
 
 
-with open("status.rst", "w") as fp:
-	for repo in project_list:
+if __name__ == '__main__':
 
-		repo_path = repos_dir / repo
+	with open("status.rst", "w") as fp:
+		for repo in project_list:
 
-		status, lines = check_git_status(repo_path)
-		if not status:
-			print("Git working directory is not clean:\n{}".format(
-					"\n".join(lines)), file=sys.stderr)
-			print(f"Skipping {repo_path}", file=sys.stderr)
-			continue
+			repo_path = repos_dir / repo
 
-		line = '='*len(repo)
-		fp.write(f"\n{line}\n{repo}\n{line}\n")
-		print(f"\n{line}\n{repo}\n{line}")
+			status, lines = check_git_status(repo_path)
+			if not status:
+				print("Git working directory is not clean:\n{}".format(
+						"\n".join(lines)), file=sys.stderr)
+				print(f"Skipping {repo_path}", file=sys.stderr)
+				continue
 
-		status = get_git_status(repo_path)
-		print(status)
-		fp.write(status)
+			line = '='*len(repo)
+			fp.write(f"\n{line}\n{repo}\n{line}\n")
+			print(f"\n{line}\n{repo}\n{line}")
 
-		gh = GitHelper(repos_dir / repo)
-		managed_files = gh.run()
-		commit_changed_files(gh.target_repo, managed_files, True)
+			status = get_git_status(repo_path)
+			print(status)
+			fp.write(status)
 
-		git_push(gh.target_repo)
+			gh = GitHelper(repos_dir / repo)
+			managed_files = gh.run()
+			commit_changed_files(gh.target_repo, managed_files, True)
+
+			git_push(gh.target_repo)
