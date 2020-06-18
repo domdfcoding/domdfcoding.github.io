@@ -27,5 +27,14 @@ exclude_files:
   - bumpversion
   - issue_templates
   - tox
+  - actions
+  - docs_action
+  - Source_rst
+  - Building_rst
+  - rtfd
+  - contributing
+
+intersphinx_mapping:
+  - "'domdf_python_tools': ('https://domdf_python_tools.rtfd.io/en/latest/', None)"
 
 python_deploy_version: "3.6"
