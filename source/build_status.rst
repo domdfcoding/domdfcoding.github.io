@@ -34,6 +34,9 @@ dummy_wx                  .. image:: https://img.shields.io/travis/com/domdfcodi
 extras_require            .. image:: https://img.shields.io/travis/com/domdfcoding/extras_require/master?logo=travis            .. image:: https://img.shields.io/readthedocs/extras_require/latest?logo=read-the-docs
                           	:target: https://travis-ci.com/domdfcoding/extras_require                                            	:target: https://extras_require.readthedocs.io/en/latest/?badge=latest
                           	:alt: Travis Build Status                                                                            	:alt: Documentation Status
+flake8_strftime           .. image:: https://img.shields.io/travis/com/domdfcoding/flake8_strftime/master?logo=travis           .. image:: https://img.shields.io/readthedocs/flake8_strftime/latest?logo=read-the-docs
+                          	:target: https://travis-ci.com/domdfcoding/flake8_strftime                                           	:target: https://flake8_strftime.readthedocs.io/en/latest/?badge=latest
+                          	:alt: Travis Build Status                                                                            	:alt: Documentation Status
 mathematical              .. image:: https://img.shields.io/travis/com/domdfcoding/mathematical/master?logo=travis              .. image:: https://img.shields.io/readthedocs/mathematical/latest?logo=read-the-docs
                           	:target: https://travis-ci.com/domdfcoding/mathematical                                              	:target: https://mathematical.readthedocs.io/en/latest/?badge=latest
                           	:alt: Travis Build Status                                                                            	:alt: Documentation Status
@@ -42,6 +45,9 @@ msp2lib                   .. image:: https://img.shields.io/travis/com/domdfcodi
                           	:alt: Travis Build Status                                                                            	:alt: Documentation Status
 notebook2script           .. image:: https://img.shields.io/travis/com/domdfcoding/notebook2script/master?logo=travis           .. image:: https://img.shields.io/readthedocs/notebook2script/latest?logo=read-the-docs
                           	:target: https://travis-ci.com/domdfcoding/notebook2script                                           	:target: https://notebook2script.readthedocs.io/en/latest/?badge=latest
+                          	:alt: Travis Build Status                                                                            	:alt: Documentation Status
+pynist                    .. image:: https://img.shields.io/travis/com/domdfcoding/pynist/master?logo=travis                    .. image:: https://img.shields.io/readthedocs/pynist/latest?logo=read-the-docs
+                          	:target: https://travis-ci.com/domdfcoding/pynist                                                    	:target: https://pynist.readthedocs.io/en/latest/?badge=latest
                           	:alt: Travis Build Status                                                                            	:alt: Documentation Status
 PySetWacom                .. image:: https://img.shields.io/travis/com/domdfcoding/PySetWacom/master?logo=travis                .. image:: https://img.shields.io/readthedocs/pysetwacom/latest?logo=read-the-docs
                           	:target: https://travis-ci.com/domdfcoding/PySetWacom                                                	:target: https://pysetwacom.readthedocs.io/en/latest/?badge=latest
