@@ -432,7 +432,7 @@ Read the `documentation <https://custom_wx_icons_hicolor.rtfd.io>`_.
 .. |language_wx_icons_hicolor| image:: https://img.shields.io/github/languages/top/domdfcoding/custom_wx_icons_hicolor
 	:alt: GitHub top language
 
-.. |commits-since_wx_icons_hicolor| image:: https://img.shields.io/github/commits-since/domdfcoding/custom_wx_icons_hicolor/v0.1.1
+.. |commits-since_wx_icons_hicolor| image:: https://img.shields.io/github/commits-since/domdfcoding/custom_wx_icons_hicolor/v0.1.2
 	:target: https://github.com/domdfcoding/custom_wx_icons_hicolor/pulse
 	:alt: GitHub commits since tagged version
 
@@ -1906,7 +1906,7 @@ Read the `documentation <https://singledispatch-json.rtfd.io>`_.
 .. |language_sdjson| image:: https://img.shields.io/github/languages/top/domdfcoding/singledispatch-json
 	:alt: GitHub top language
 
-.. |commits-since_sdjson| image:: https://img.shields.io/github/commits-since/domdfcoding/singledispatch-json/v0.2.5
+.. |commits-since_sdjson| image:: https://img.shields.io/github/commits-since/domdfcoding/singledispatch-json/v0.2.6
 	:target: https://github.com/domdfcoding/singledispatch-json/pulse
 	:alt: GitHub commits since tagged version
 
@@ -2328,4 +2328,222 @@ Read the `documentation <https://ytools3.rtfd.io>`_.
 	:alt: Maintenance
 
 .. end shields ytools
+
+
+.. _flake8_strftime:
+
+flake8_strftime
+--------------------
+
+.. description goes here
+
+.. start short_desc_flake8_strftime
+
+**A flake8 plugin which checks for use of platform specific strftime codes.**
+
+.. end short_desc_flake8_strftime
+
+.. start links flake8_strftime
+
+View the project on `GitHub <https://github.com/domdfcoding/flake8_strftime>`_.
+Read the `documentation <https://flake8_strftime.rtfd.io>`_.
+
+.. end links_flake8_strftime
+
+.. start shields flake8_strftime
+
+.. list-table::
+	:stub-columns: 1
+	:widths: 10 90
+
+	* - Docs
+	  - |docs_flake8_strftime| |docs_check_flake8_strftime|
+	* - Tests
+	  - |travis_flake8_strftime| |actions_windows_flake8_strftime| |actions_macos_flake8_strftime| |coveralls_flake8_strftime| |codefactor_flake8_strftime|
+	* - PyPI
+	  - |pypi-version_flake8_strftime| |supported-versions_flake8_strftime| |supported-implementations_flake8_strftime| |wheel_flake8_strftime|
+	* - Anaconda
+	  - |conda-version_flake8_strftime| |conda-platform_flake8_strftime|
+	* - Activity
+	  - |commits-latest_flake8_strftime| |commits-since_flake8_strftime| |maintained_flake8_strftime|
+	* - Other
+	  - |license_flake8_strftime| |language_flake8_strftime| |requires_flake8_strftime|
+
+.. |docs_flake8_strftime| image:: https://img.shields.io/readthedocs/flake8_strftime/latest?logo=read-the-docs
+	:target: https://flake8_strftime.readthedocs.io/en/latest/?badge=latest
+	:alt: Documentation Status
+	
+.. |docs_check_flake8_strftime| image:: https://github.com/domdfcoding/flake8_strftime/workflows/Docs%20Check/badge.svg
+	:target: https://github.com/domdfcoding/flake8_strftime/actions?query=workflow%3A%22Docs+Check%22
+	:alt: Docs Check Status
+
+.. |travis_flake8_strftime| image:: https://img.shields.io/travis/com/domdfcoding/flake8_strftime/master?logo=travis
+	:target: https://travis-ci.com/domdfcoding/flake8_strftime
+	:alt: Travis Build Status
+
+.. |actions_windows_flake8_strftime| image:: https://github.com/domdfcoding/flake8_strftime/workflows/Windows%20Tests/badge.svg
+	:target: https://github.com/domdfcoding/flake8_strftime/actions?query=workflow%3A%22Windows+Tests%22
+	:alt: Windows Tests Status
+
+.. |actions_macos_flake8_strftime| image:: https://github.com/domdfcoding/flake8_strftime/workflows/macOS%20Tests/badge.svg
+	:target: https://github.com/domdfcoding/flake8_strftime/actions?query=workflow%3A%22macOS+Tests%22
+	:alt: macOS Tests Status
+
+.. |requires_flake8_strftime| image:: https://requires.io/github/domdfcoding/flake8_strftime/requirements.svg?branch=master
+	:target: https://requires.io/github/domdfcoding/flake8_strftime/requirements/?branch=master
+	:alt: Requirements Status
+
+.. |coveralls_flake8_strftime| image:: https://img.shields.io/coveralls/github/domdfcoding/flake8_strftime/master?logo=coveralls
+	:target: https://coveralls.io/github/domdfcoding/flake8_strftime?branch=master
+	:alt: Coverage
+
+.. |codefactor_flake8_strftime| image:: https://img.shields.io/codefactor/grade/github/domdfcoding/flake8_strftime?logo=codefactor
+	:target: https://www.codefactor.io/repository/github/domdfcoding/flake8_strftime
+	:alt: CodeFactor Grade
+
+.. |pypi-version_flake8_strftime| image:: https://img.shields.io/pypi/v/flake8_strftime
+	:target: https://pypi.org/project/flake8_strftime/
+	:alt: PyPI - Package Version
+
+.. |supported-versions_flake8_strftime| image:: https://img.shields.io/pypi/pyversions/flake8_strftime
+	:target: https://pypi.org/project/flake8_strftime/
+	:alt: PyPI - Supported Python Versions
+
+.. |supported-implementations_flake8_strftime| image:: https://img.shields.io/pypi/implementation/flake8_strftime
+	:target: https://pypi.org/project/flake8_strftime/
+	:alt: PyPI - Supported Implementations
+
+.. |wheel_flake8_strftime| image:: https://img.shields.io/pypi/wheel/flake8_strftime
+	:target: https://pypi.org/project/flake8_strftime/
+	:alt: PyPI - Wheel
+
+.. |conda-version_flake8_strftime| image:: https://img.shields.io/conda/v/domdfcoding/flake8_strftime?logo=anaconda
+	:alt: Conda - Package Version
+	:target: https://anaconda.org/domdfcoding/flake8_strftime
+
+.. |conda-platform_flake8_strftime| image:: https://img.shields.io/conda/pn/domdfcoding/flake8_strftime?label=conda%7Cplatform
+	:alt: Conda - Platform
+	:target: https://anaconda.org/domdfcoding/flake8_strftime
+
+.. |license_flake8_strftime| image:: https://img.shields.io/github/license/domdfcoding/flake8_strftime
+	:alt: License
+	:target: https://github.com/domdfcoding/flake8_strftime/blob/master/LICENSE
+
+.. |language_flake8_strftime| image:: https://img.shields.io/github/languages/top/domdfcoding/flake8_strftime
+	:alt: GitHub top language
+
+.. |commits-since_flake8_strftime| image:: https://img.shields.io/github/commits-since/domdfcoding/flake8_strftime/v0.1.1
+	:target: https://github.com/domdfcoding/flake8_strftime/pulse
+	:alt: GitHub commits since tagged version
+
+.. |commits-latest_flake8_strftime| image:: https://img.shields.io/github/last-commit/domdfcoding/flake8_strftime
+	:target: https://github.com/domdfcoding/flake8_strftime/commit/master
+	:alt: GitHub last commit
+
+.. |maintained_flake8_strftime| image:: https://img.shields.io/maintenance/yes/2020
+	:alt: Maintenance
+
+.. end shields flake8_strftime
+
+
+.. _pyms-nist-search:
+
+pyms-nist-search
+---------------------
+
+.. description goes here
+
+.. start short_desc_pyms_nist_search
+
+**PyMassSpec extension for searching mass spectra using NIST's Mass Spectrum Search Engine**
+
+.. end short_desc_pyms_nist_search
+
+.. start links pyms_nist_search
+
+View the project on `GitHub <https://github.com/domdfcoding/pynist>`_.
+Read the `documentation <https://pynist.rtfd.io>`_.
+
+.. end links_pyms_nist_search
+
+.. start shields pyms_nist_search
+
+.. list-table::
+	:stub-columns: 1
+	:widths: 10 90
+
+	* - Docs
+	  - |docs_pyms_nist_search| |docs_check_pyms_nist_search|
+	* - Tests
+	  - |travis_pyms_nist_search| |actions_windows_pyms_nist_search| |coveralls_pyms_nist_search| |codefactor_pyms_nist_search|
+	* - PyPI
+	  - |pypi-version_pyms_nist_search| |supported-versions_pyms_nist_search| |supported-implementations_pyms_nist_search| |wheel_pyms_nist_search|
+	* - Activity
+	  - |commits-latest_pyms_nist_search| |commits-since_pyms_nist_search| |maintained_pyms_nist_search|
+	* - Other
+	  - |license_pyms_nist_search| |language_pyms_nist_search| |requires_pyms_nist_search|
+
+.. |docs_pyms_nist_search| image:: https://img.shields.io/readthedocs/pynist/latest?logo=read-the-docs
+	:target: https://pynist.readthedocs.io/en/latest/?badge=latest
+	:alt: Documentation Status
+	
+.. |docs_check_pyms_nist_search| image:: https://github.com/domdfcoding/pynist/workflows/Docs%20Check/badge.svg
+	:target: https://github.com/domdfcoding/pynist/actions?query=workflow%3A%22Docs+Check%22
+	:alt: Docs Check Status
+
+.. |travis_pyms_nist_search| image:: https://img.shields.io/travis/com/domdfcoding/pynist/master?logo=travis
+	:target: https://travis-ci.com/domdfcoding/pynist
+	:alt: Travis Build Status
+
+.. |actions_windows_pyms_nist_search| image:: https://github.com/domdfcoding/pynist/workflows/Windows%20Tests/badge.svg
+	:target: https://github.com/domdfcoding/pynist/actions?query=workflow%3A%22Windows+Tests%22
+	:alt: Windows Tests Status
+
+.. |requires_pyms_nist_search| image:: https://requires.io/github/domdfcoding/pynist/requirements.svg?branch=master
+	:target: https://requires.io/github/domdfcoding/pynist/requirements/?branch=master
+	:alt: Requirements Status
+
+.. |coveralls_pyms_nist_search| image:: https://img.shields.io/coveralls/github/domdfcoding/pynist/master?logo=coveralls
+	:target: https://coveralls.io/github/domdfcoding/pynist?branch=master
+	:alt: Coverage
+
+.. |codefactor_pyms_nist_search| image:: https://img.shields.io/codefactor/grade/github/domdfcoding/pynist?logo=codefactor
+	:target: https://www.codefactor.io/repository/github/domdfcoding/pynist
+	:alt: CodeFactor Grade
+
+.. |pypi-version_pyms_nist_search| image:: https://img.shields.io/pypi/v/pyms-nist-search
+	:target: https://pypi.org/project/pyms-nist-search/
+	:alt: PyPI - Package Version
+
+.. |supported-versions_pyms_nist_search| image:: https://img.shields.io/pypi/pyversions/pyms-nist-search
+	:target: https://pypi.org/project/pyms-nist-search/
+	:alt: PyPI - Supported Python Versions
+
+.. |supported-implementations_pyms_nist_search| image:: https://img.shields.io/pypi/implementation/pyms-nist-search
+	:target: https://pypi.org/project/pyms-nist-search/
+	:alt: PyPI - Supported Implementations
+
+.. |wheel_pyms_nist_search| image:: https://img.shields.io/pypi/wheel/pyms-nist-search
+	:target: https://pypi.org/project/pyms-nist-search/
+	:alt: PyPI - Wheel
+
+.. |license_pyms_nist_search| image:: https://img.shields.io/github/license/domdfcoding/pynist
+	:alt: License
+	:target: https://github.com/domdfcoding/pynist/blob/master/LICENSE
+
+.. |language_pyms_nist_search| image:: https://img.shields.io/github/languages/top/domdfcoding/pynist
+	:alt: GitHub top language
+
+.. |commits-since_pyms_nist_search| image:: https://img.shields.io/github/commits-since/domdfcoding/pynist/v0.4.14
+	:target: https://github.com/domdfcoding/pynist/pulse
+	:alt: GitHub commits since tagged version
+
+.. |commits-latest_pyms_nist_search| image:: https://img.shields.io/github/last-commit/domdfcoding/pynist
+	:target: https://github.com/domdfcoding/pynist/commit/master
+	:alt: GitHub last commit
+
+.. |maintained_pyms_nist_search| image:: https://img.shields.io/maintenance/yes/2020
+	:alt: Maintenance
+
+.. end shields pyms_nist_search
 
