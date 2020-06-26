@@ -2547,3 +2547,105 @@ Read the `documentation <https://pynist.rtfd.io>`_.
 
 .. end shields pyms_nist_search
 
+
+.. _py2latex:
+
+py2latex
+-------------
+
+.. description goes here
+
+.. start short_desc_py2latex
+
+**Create LaTeX documents with Python, Markdown and Jinja2.**
+
+.. end short_desc_py2latex
+
+.. start links py2latex
+
+View the project on `GitHub <https://github.com/domdfcoding/py2latex>`_.
+Read the `documentation <https://py2latex.rtfd.io>`_.
+
+.. end links_py2latex
+
+.. start shields py2latex
+
+.. list-table::
+	:stub-columns: 1
+	:widths: 10 90
+
+	* - Docs
+	  - |docs_py2latex| |docs_check_py2latex|
+	* - Tests
+	  - |travis_py2latex| |actions_windows_py2latex| |actions_macos_py2latex| |codefactor_py2latex|
+	* - PyPI
+	  - |pypi-version_py2latex| |supported-versions_py2latex| |supported-implementations_py2latex| |wheel_py2latex|
+	* - Activity
+	  - |commits-latest_py2latex| |commits-since_py2latex| |maintained_py2latex|
+	* - Other
+	  - |license_py2latex| |language_py2latex| |requires_py2latex|
+
+.. |docs_py2latex| image:: https://img.shields.io/readthedocs/py2latex/latest?logo=read-the-docs
+	:target: https://py2latex.readthedocs.io/en/latest/?badge=latest
+	:alt: Documentation Status
+	
+.. |docs_check_py2latex| image:: https://github.com/domdfcoding/py2latex/workflows/Docs%20Check/badge.svg
+	:target: https://github.com/domdfcoding/py2latex/actions?query=workflow%3A%22Docs+Check%22
+	:alt: Docs Check Status
+
+.. |travis_py2latex| image:: https://img.shields.io/travis/com/domdfcoding/py2latex/master?logo=travis
+	:target: https://travis-ci.com/domdfcoding/py2latex
+	:alt: Travis Build Status
+
+.. |actions_windows_py2latex| image:: https://github.com/domdfcoding/py2latex/workflows/Windows%20Tests/badge.svg
+	:target: https://github.com/domdfcoding/py2latex/actions?query=workflow%3A%22Windows+Tests%22
+	:alt: Windows Tests Status
+
+.. |actions_macos_py2latex| image:: https://github.com/domdfcoding/py2latex/workflows/macOS%20Tests/badge.svg
+	:target: https://github.com/domdfcoding/py2latex/actions?query=workflow%3A%22macOS+Tests%22
+	:alt: macOS Tests Status
+
+.. |requires_py2latex| image:: https://requires.io/github/domdfcoding/py2latex/requirements.svg?branch=master
+	:target: https://requires.io/github/domdfcoding/py2latex/requirements/?branch=master
+	:alt: Requirements Status
+
+.. |codefactor_py2latex| image:: https://img.shields.io/codefactor/grade/github/domdfcoding/py2latex?logo=codefactor
+	:target: https://www.codefactor.io/repository/github/domdfcoding/py2latex
+	:alt: CodeFactor Grade
+
+.. |pypi-version_py2latex| image:: https://img.shields.io/pypi/v/py2latex
+	:target: https://pypi.org/project/py2latex/
+	:alt: PyPI - Package Version
+
+.. |supported-versions_py2latex| image:: https://img.shields.io/pypi/pyversions/py2latex
+	:target: https://pypi.org/project/py2latex/
+	:alt: PyPI - Supported Python Versions
+
+.. |supported-implementations_py2latex| image:: https://img.shields.io/pypi/implementation/py2latex
+	:target: https://pypi.org/project/py2latex/
+	:alt: PyPI - Supported Implementations
+
+.. |wheel_py2latex| image:: https://img.shields.io/pypi/wheel/py2latex
+	:target: https://pypi.org/project/py2latex/
+	:alt: PyPI - Wheel
+
+.. |license_py2latex| image:: https://img.shields.io/github/license/domdfcoding/py2latex
+	:alt: License
+	:target: https://github.com/domdfcoding/py2latex/blob/master/LICENSE
+
+.. |language_py2latex| image:: https://img.shields.io/github/languages/top/domdfcoding/py2latex
+	:alt: GitHub top language
+
+.. |commits-since_py2latex| image:: https://img.shields.io/github/commits-since/domdfcoding/py2latex/v0.0.6
+	:target: https://github.com/domdfcoding/py2latex/pulse
+	:alt: GitHub commits since tagged version
+
+.. |commits-latest_py2latex| image:: https://img.shields.io/github/last-commit/domdfcoding/py2latex
+	:target: https://github.com/domdfcoding/py2latex/commit/master
+	:alt: GitHub last commit
+
+.. |maintained_py2latex| image:: https://img.shields.io/maintenance/yes/2020
+	:alt: Maintenance
+
+.. end shields py2latex
+

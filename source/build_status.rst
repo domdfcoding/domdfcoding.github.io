@@ -37,6 +37,9 @@ extras_require            .. image:: https://img.shields.io/travis/com/domdfcodi
 flake8_strftime           .. image:: https://img.shields.io/travis/com/domdfcoding/flake8_strftime/master?logo=travis           .. image:: https://img.shields.io/readthedocs/flake8_strftime/latest?logo=read-the-docs
                           	:target: https://travis-ci.com/domdfcoding/flake8_strftime                                           	:target: https://flake8_strftime.readthedocs.io/en/latest/?badge=latest
                           	:alt: Travis Build Status                                                                            	:alt: Documentation Status
+py2latex                  .. image:: https://img.shields.io/travis/com/domdfcoding/py2latex/master?logo=travis                  .. image:: https://img.shields.io/readthedocs/py2latex/latest?logo=read-the-docs
+                          	:target: https://travis-ci.com/domdfcoding/py2latex                                                  	:target: https://py2latex.readthedocs.io/en/latest/?badge=latest
+                          	:alt: Travis Build Status                                                                            	:alt: Documentation Status
 mathematical              .. image:: https://img.shields.io/travis/com/domdfcoding/mathematical/master?logo=travis              .. image:: https://img.shields.io/readthedocs/mathematical/latest?logo=read-the-docs
                           	:target: https://travis-ci.com/domdfcoding/mathematical                                              	:target: https://mathematical.readthedocs.io/en/latest/?badge=latest
                           	:alt: Travis Build Status                                                                            	:alt: Documentation Status

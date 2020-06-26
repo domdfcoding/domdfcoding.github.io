@@ -7,6 +7,7 @@ project_list = [
 		#### "better_enum",
 		"cawdrey",
 		# "chemistry_tools",  # TODO: waiting on better_enum
+		"copy pypi_2_github",
 		#### "custom_wx_icons",
 		"custom_wx_icons_adwaita",
 		"custom_wx_icons_hicolor",
@@ -21,15 +22,14 @@ project_list = [
 		#### "extras_require_demos",
 		"flake8-strftime",
 		#### "git_helper",
-		#### "latex_tools",
+		"latex_tools",
 		"mathematical",
 		"msp2lib",
 		"notebook2script",
-		#### "py2tex",
 		#### "pyms-agilent",
 		#### "pyms-github",
 		"pynist",
-		"PySetWacom",
+		"PySetWacom",  # TODO: Type annotations
 		#### "Python_Modules",
 		"pyupgrade-directories",
 		#### "pywine-pyms-nist",  # todo: Can't use git_helper
