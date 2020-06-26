@@ -52,13 +52,14 @@ extensions = [
 		"sphinx-prompt",
 		"sphinx_autodoc_typehints",
 		"sphinx.ext.autosummary",
+		'asset_role'
 		]
 
 sphinxemoji_style = 'twemoji'
 todo_include_todos = bool(os.environ.get("SHOW_TODOS", False))
 
 templates_path = ['_templates']
-html_static_path = ['_static']
+html_static_path = ['_static', "_assets"]
 source_suffix = '.rst'
 exclude_patterns = []
 
