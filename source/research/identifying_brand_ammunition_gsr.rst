@@ -54,27 +54,32 @@ Read about it on the `Staffordshire University Blog <https://blogs.staffs.ac.uk/
 Posters
 -----------
 
-Poster presented at Staffordshire University GradEx 2018. First place in the Forensic Science category.
+Poster presented at Staffordshire University GradEx 2018.
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+First place in the Forensic Science category.
 
 .. list-table::
 	:stub-columns: 1
 	:widths: 10 90
 
 	* - PNG Image (55 MB)
-	  - |gradex_png_view| |gradex_png_download|
+	  - :asset:`View <GradEx Poster.png>` :download:`Download <_assets/GradEx Poster.png>`
 	* - A1 PDF (150 MB)
-	  - |gradex_pdf_view| |gradex_pdf_download|
-
-.. |gradex_png_view| :asset:`View <GradEx Poster.png>`
-.. |gradex_png_download| :download:`Download <_assets/GradEx Poster.png>`
-.. |gradex_pdf_view| :asset:`View <GradEx Poster.pdf>`
-.. |gradex_pdf_download| :download:`Download <_assets/GradEx Poster.pdf>`
+	  - :asset:`View <GradEx Poster.pdf>` :download:`Download <_assets/GradEx Poster.pdf>`
 
 
-.. A1 PDF (150 MB)
-Poster presented at the Chartered Society of Forensic Sciences Annual Student Conference 2018, University of Derby, UK.
+Poster presented at the Chartered Society of Forensic Sciences Annual Student Conference 2018.
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. PNG Image (30 MB)
-A1 PDF (200 MB)
+University of Derby, UK.
 
+
+.. list-table::
+	:stub-columns: 1
+	:widths: 10 90
+
+	* - PNG Image (30 MB)
+	  - :asset:`View <CSoFS 2018 Poster.png>` :download:`Download <_assets/CSoFS 2018 Poster.png>`
+	* - A1 PDF (200 MB)
+	  - :asset:`View <CSoFS 2018 Poster.pdf>` :download:`Download <_assets/CSoFS 2018 Poster.pdf>`
