@@ -22,5 +22,6 @@ Science, Technology, Video Games and Wargaming. Linux fanboy.
 
 	projects
 	build_status
+	GSR
 
 ..   API Reference<docs>
