@@ -71,12 +71,12 @@
   {%- if parents %}
     <link rel="up" title="{{ parents[-1].title|striptags|e }}" href="{{ parents[-1].link|e }}" />
   {%- endif %}
-{#  {%- if next %}#}
-{#    <link rel="next" title="{{ next.title|striptags|e }}" href="{{ next.link|e }}" />#}
-{#  {%- endif %}#}
-{#  {%- if prev %}#}
-{#    <link rel="prev" title="{{ prev.title|striptags|e }}" href="{{ prev.link|e }}" />#}
-{#  {%- endif %}#}
+  {%- if next %}
+    <link rel="next" title="{{ next.title|striptags|e }}" href="{{ next.link|e }}" />
+  {%- endif %}
+  {%- if prev %}
+    <link rel="prev" title="{{ prev.title|striptags|e }}" href="{{ prev.link|e }}" />
+  {%- endif %}
 {% endblock -%}
 <!-- /linktags -->
 <!-- extrahead -->
@@ -166,7 +166,7 @@
                 <div class="page-main-content">
                     <div class="rst-content">
 <!-- pager-hidden.html -->
-{% include "pager-hidden.html" %}
+{#{% include "pager-hidden.html" %}#}
 <!-- /pager-hidden.html -->
 <!-- breadcrumbs.html -->
 {% include "breadcrumbs.html" %}
