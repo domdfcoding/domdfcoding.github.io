@@ -52,7 +52,8 @@ extensions = [
 		"sphinx-prompt",
 		"sphinx_autodoc_typehints",
 		"sphinx.ext.autosummary",
-		'asset_role'
+		'asset_role',
+		"sphinxcontrib.youtube",
 		]
 
 sphinxemoji_style = 'twemoji'
