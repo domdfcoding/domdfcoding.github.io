@@ -37,7 +37,7 @@ Links
 --------
 
 * :asset:`View <Identifying the Brand of Ammunition from Gunshot Residue - Double Sided.pdf>`
-* :download:`Download <_assets/Identifying the Brand of Ammunition from Gunshot Residue - Double Sided.pdf>`
+* :download:`Download <../_assets/Identifying the Brand of Ammunition from Gunshot Residue - Double Sided.pdf>`
 * `Associated data <http://dominic.davis-foster.co.uk/GSR/Data>`_
 * `GunShotMatch Github <https://github.com/domdfcoding/GunShotMatch>`_
 
@@ -47,7 +47,7 @@ Oral Presentation
 
 Delivered at the British Conference of Undergraduate Research 2018, University of Sheffield, UK.
 
-* :download:`Download <_assets/BCUR presentation.pptx>`.
+* :download:`Download <../_assets/BCUR presentation.pptx>`.
 
 Read about it on the `Staffordshire University Blog <https://blogs.staffs.ac.uk/law-policing-forensics/2018/04/18/british-conference-of-undergraduate-research/>`_.
 
@@ -64,9 +64,9 @@ First place in the Forensic Science category.
 	:widths: 10 90
 
 	* - PNG Image (55 MB)
-	  - :asset:`View <GradEx Poster.png>` :download:`Download <_assets/GradEx Poster.png>`
+	  - :asset:`View <GradEx Poster.png>` :download:`Download <../_assets/GradEx Poster.png>`
 	* - A1 PDF (150 MB)
-	  - :asset:`View <GradEx Poster.pdf>` :download:`Download <_assets/GradEx Poster.pdf>`
+	  - :asset:`View <GradEx Poster.pdf>` :download:`Download <../_assets/GradEx Poster.pdf>`
 
 
 Poster presented at the Chartered Society of Forensic Sciences Annual Student Conference 2018.
@@ -80,6 +80,6 @@ University of Derby, UK.
 	:widths: 10 90
 
 	* - PNG Image (30 MB)
-	  - :asset:`View <CSoFS 2018 Poster.png>` :download:`Download <_assets/CSoFS 2018 Poster.png>`
+	  - :asset:`View <CSoFS 2018 Poster.png>` :download:`Download <../_assets/CSoFS 2018 Poster.png>`
 	* - A1 PDF (200 MB)
-	  - :asset:`View <CSoFS 2018 Poster.pdf>` :download:`Download <_assets/CSoFS 2018 Poster.pdf>`
+	  - :asset:`View <CSoFS 2018 Poster.pdf>` :download:`Download <../_assets/CSoFS 2018 Poster.pdf>`

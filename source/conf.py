@@ -53,7 +53,7 @@ extensions = [
 		"sphinx_autodoc_typehints",
 		"sphinx.ext.autosummary",
 		'asset_role',
-		"ytsphinx",
+		"sphinxcontrib.youtube",
 		]
 
 sphinxemoji_style = 'twemoji'
