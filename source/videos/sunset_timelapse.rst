@@ -12,6 +12,6 @@ Website: http://www.sanstef.gr/?page_id=4
 
 Time lapse filmed on a GoPro Hero 5 Session.
 
-Music: "The Temperature of the Air on the Bow of the Kaleetan" by Chris Zabriskie. From the Youtube Audio
+Music: "The Temperature of the Air on the Bow of the Kaleetan" by Chris Zabriskie. From the Youtube Audio Library
 
 .. youtube:: PxX5a2jRPOk
