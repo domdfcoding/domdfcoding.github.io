@@ -54,7 +54,7 @@ Base class for menus, with functions to handle opening submenus.
 
 Basis of a main menu, with level select, save, load, options and quit buttons.
 
-The menu is of class `MainMenu`, inheriting from `Menu`.
+The menu is of class `MainMenu`, inheriting from [`Menu`](class-menu).
 
 
 #### `pause_menu.tscn`
@@ -63,7 +63,7 @@ The menu is of class `MainMenu`, inheriting from `Menu`.
 
 Basis of a pause menu, with level select, save, load, options, main menu and quit buttons.
 
-The menu is of class `PauseMenu`, inheriting from `Menu`.
+The menu is of class `PauseMenu`, inheriting from [`Menu`](class-menu).
 
 
 #### `level_select_menu.tscn`
@@ -108,7 +108,7 @@ The button is of class `SubmenuButton`.
 
 `SubmenuButton` to open the level select menu and load the selected level.
 
-The button is of class `LevelSelectSubmenuButton`, inheriting from `SubmenuButton`.
+The button is of class `LevelSelectSubmenuButton`, inheriting from [`SubmenuButton`](#menu_buttonssubmenu_buttontscn).
 
 
 #### `menu_buttons/quit_button.tscn`

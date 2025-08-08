@@ -108,14 +108,14 @@ Base class for custom controls derived from panels. Provides a `focus()` method 
 
 `res://godot-helpers/controls/checkbox_button/checkbox_button.tscn`
 
-A toggle button with a checkbox. The button is of class `CheckBoxButton`, inheriting from `PanelControl`.
+A toggle button with a checkbox. The button is of class `CheckBoxButton`, inheriting from [`PanelControl`](#class-panelcontrol).
 
 
 #### `volume_slider.tscn`
 
 `res://godot-helpers/controls/volume_slider/volume_slider.tscn`
 
-A toggle button with a checkbox. The button is of class `VolumeSlider`, inheriting from `PanelControl`.
+A toggle button with a checkbox. The button is of class `VolumeSlider`, inheriting from [`PanelControl`](#class-panelcontrol).
 
 
 #### `controller_group_prompt_label.tscn`
