@@ -94,6 +94,7 @@ plugins:
   - jekyll-seo-tag
   - jemoji
   - jekyll-include-cache
+  - jekyll-remote-theme
   - jekyll-toc
 
 # mimic GitHub Pages with --safe
@@ -105,6 +106,7 @@ whitelist:
   - jekyll-seo-tag
   - jemoji
   - jekyll-include-cache
+  - jekyll-remote-theme
   - jekyll-toc
 
 # # HTML Compression
