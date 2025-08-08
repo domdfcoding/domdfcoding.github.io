@@ -1,6 +1,7 @@
 ---
-layout: list
+layout: page
 permalink: /games/
+toc: true
 
 title: "Games"
 ---

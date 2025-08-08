@@ -1,6 +1,7 @@
 ---
-layout: list
+layout: page
 permalink: /mods/
+toc: true
 
 title: "Fallout Mods and Tools"
 ---
@@ -12,7 +13,8 @@ and creating new or changed versions.
 
 `esp-parser` is available on GitHub at https://github.com/potbanksoftware/esp-parser .
 
-## The Lone Ranger Alternative Start (coming soon)
+## The Lone Ranger Alternative Start
+### (coming soon)
 
 In this Fallout New Vegas mod you start as The Lone Ranger from the 1950s TV show.
 Guarding "Courier Six" as he makes his way to Freeside, you're ambushed by a group of Great Khans and left for dead.

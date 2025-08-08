@@ -94,6 +94,7 @@ plugins:
   - jekyll-seo-tag
   - jemoji
   - jekyll-include-cache
+  - jekyll-toc
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -104,6 +105,7 @@ whitelist:
   - jekyll-seo-tag
   - jemoji
   - jekyll-include-cache
+  - jekyll-toc
 
 # # HTML Compression
 # # - http://jch.penibelst.de/
