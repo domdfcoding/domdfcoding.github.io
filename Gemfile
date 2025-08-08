@@ -4,7 +4,7 @@ source "https://rubygems.org"
 
 # gem "rails"
 
-gem "jekyll", "~> 4.4"
+# gem "jekyll", "~> 4.4"
 gem "jekyll-sitemap", "~> 1.4"
 gem "jekyll-paginate", "~> 1.1"
 
