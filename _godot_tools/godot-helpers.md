@@ -2,14 +2,14 @@
 layout: page
 toc: true
 output: true
-excerpt: "<tt>godot-helpers</tt> is a Godot addon various useful scenes and classes."
+excerpt: "<tt>godot-helpers</tt> is a Godot addon with various useful scenes and classes."
 
 title: "Godot Helpers"
 ---
 
 ## [<i class="fa-brands fa-github"></i>](https://github.com/potbanksoftware/godot-helpers)
 
-`godot-helpers` is a Godot addon various useful scenes and classes.
+`godot-helpers` is an MIT Licenced Godot addon with various useful scenes and classes.
 
 * [Demo](/godot-helpers-demos)
 * [Demo Source](https://github.com/potbanksoftware/godot-helpers-demos)
@@ -99,4 +99,84 @@ Returns whether the display is a touchscreen.
 Represents the type of the currently connected controller.
 
 Options are `XBOX_360`, `XBOX`, `PLAYSTATION`, `PS4`, `PS5`, `SWITCH`, and `NONE`.
+
+#### Class `PanelControl`
+
+Base class for custom controls derived from panels. Provides a `focus()` method to grab focus on the underlying button, slider etc.
+
+#### `checkbox_button.tscn`
+
+`res://godot-helpers/controls/checkbox_button/checkbox_button.tscn`
+
+A toggle button with a checkbox. The button is of class `CheckBoxButton`, inheriting from `PanelControl`.
+
+
+#### `volume_slider.tscn`
+
+`res://godot-helpers/controls/volume_slider/volume_slider.tscn`
+
+A toggle button with a checkbox. The button is of class `VolumeSlider`, inheriting from `PanelControl`.
+
+
+#### `controller_group_prompt_label.tscn`
+
+`res://godot-helpers/controls/controller_group_prompt_label.tscn`
+
+A label that shows a group of controller or keyboard input prompts and a label.
+
+Options for `group` are:
+
+* `WASD_LS` - The WASD keyboard keys and the left controller joystick, such as for movement.
+* `ARROWS_DPAD` - The keyboard arrow keys and the controller D-pad.
+* `MOUSE_RS` - Mouse movement and the right controller joystick, such as for aiming.
+
+By default the prompt is shown for controllers if connected, otherwise for keyboards.
+This can be overridden with the `controller_type` option.
+
+The label is of class `ControllerGroupPromptLabel`.
+
+#### `controller_prompt_label.tscn`
+
+`res://godot-helpers/controls/controller_prompt_label.tscn`
+
+A label that shows a controller or keyboard input prompt and a label.
+
+The prompt icon is taken from the given `action`.
+
+By default the prompt is shown for controllers if connected, otherwise for keyboards.
+This can be overridden with the `controller_type` option.
+
+The label is of class `ControllerPromptLabel`.
+
+
+#### `controller_prompt_button.tscn`
+
+`res://godot-helpers/controls/controller_prompt_button.tscn`
+
+A button that shows a controller or keyboard input prompt and a label.
+The prompt icon is taken from the given `action`.
+When the button is pressed or the associated action is pressed (i.e. the corresponding key or controller button)
+the `pressed` signal is emitted.
+
+By default the prompt is shown for controllers if connected, otherwise for keyboards.
+This can be overridden with the `controller_type` option.
+
+The label is of class `ControllerPromptButton`.
+
+
+#### Class `ButtonPress`
+
+Helpers to visually simulate UI button presses when controller button or keyboard key pressed.
+Requires the button to have a theme set.
+
+Example Usage
+
+```gdscript
+	if Input.is_action_just_pressed("ui_accept"):
+		ButtonPress.set_simulate_press_texture(self)
+		# Do something
+
+	if Input.is_action_just_released("ui_accept"):
+		ButtonPress.unset_simulate_press_texture(self)
+```
 
