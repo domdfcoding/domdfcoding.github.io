@@ -136,3 +136,8 @@ defaults:
       # for SEO and social sharing
       image: assets/images/logo256.png
       image_alt: Potbank Software Logo
+
+collections:
+  godot_tools:
+    output: true
+    permalink: /godot-tools/:name

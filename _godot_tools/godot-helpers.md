@@ -1,12 +1,13 @@
 ---
 layout: page
-permalink: /godot-tools/
 toc: true
+output: true
+excerpt: "<tt>godot-helpers</tt> is a Godot addon various useful scenes and classes."
 
-title: "Godot Addons and Tools"
+title: "Godot Helpers"
 ---
 
-## godot-helpers [<i class="fa-brands fa-github"></i>](https://github.com/potbanksoftware/godot-helpers)
+## [<i class="fa-brands fa-github"></i>](https://github.com/potbanksoftware/godot-helpers)
 
 `godot-helpers` is a Godot addon various useful scenes and classes.
 
