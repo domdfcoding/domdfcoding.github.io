@@ -21,4 +21,4 @@ gem "jekyll-remote-theme", git: 'https://github.com/benbalter/jekyll-remote-them
 
 gem "jekyll-data", "~> 1.1"
 
-gem "jekyll-toc", "~> 0.19.0"
+gem "jekyll-toc", git: 'https://github.com/potbanksoftware/jekyll-toc', branch: 'my0150'
