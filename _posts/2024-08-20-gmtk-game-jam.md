@@ -11,10 +11,14 @@ toc:
   beginning: true
 
 thumbnail: assets/img/gmtk-game-jam-2024-images/key-art-800x600.png
-# image: assets/img/gmtk-game-jam-2024-images/key-art-800x600.png
-# image_alt: Size Matters Screenshot
-# image_caption: Screenshot of my game jam entry "Size Matters"
 ---
+
+{% include captioned_figure.liquid 
+  path="assets/img/gmtk-game-jam-2024-images/key-art-800x600.png"
+  alt="Size Matters Screenshot"
+  caption='Screenshot of my game jam entry "Size Matters"'
+%}
+
 
 ## Introduction
 
@@ -27,12 +31,16 @@ As your health degrades the wooden shell cracks, and eventually shatters open.
 But wait! There's another doll inside. You're not out of the fight yet.
 You're on the back foot though as each doll is progressively smaller.
 
- <figure>
-<img width="512" alt="DGJ 4705 - Russian Matryoshka (4312413546)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/DGJ_4705_-_Russian_Matryoshka_%284312413546%29.jpg/512px-DGJ_4705_-_Russian_Matryoshka_%284312413546%29.jpg?20180302202234">
+{% capture dolls_caption %}
+<i>Matryoshka Dolls by <a title="Dennis G. Jarvis
+, CC BY-SA 2.0 &lt;https://creativecommons.org/licenses/by-sa/2.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:DGJ_4705_-_Russian_Matryoshka_(4312413546).jpg">Dennis G. Jarvis, via Wikimedia Commons</a></i>
+{% endcapture %}
 
-  <figcaption><i>Matryoshka Dolls by <a title="Dennis G. Jarvis
-, CC BY-SA 2.0 &lt;https://creativecommons.org/licenses/by-sa/2.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:DGJ_4705_-_Russian_Matryoshka_(4312413546).jpg">Dennis G. Jarvis, via Wikimedia Commons</a></i></figcaption>
-</figure>
+{% include captioned_figure.liquid 
+  path="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/DGJ_4705_-_Russian_Matryoshka_%284312413546%29.jpg/512px-DGJ_4705_-_Russian_Matryoshka_%284312413546%29.jpg?20180302202234"
+  alt="DGJ 4705 - Russian Matryoshka (4312413546)"
+  caption=dolls_caption
+%}
 
 I put together a prototype, but the control scheme (there's a ragdoll underneath the static sprite) wasn't very easy to control with AI.
 It needs to fling itself at your doll, then reset back to a neutral position and try to dodge attacks.
@@ -50,9 +58,9 @@ The squirrel can climb trees but can't jump as high. The bear became a deer, whi
 I decided to use the new Godot 4.3 release, which came out just before the jam.
 However, I've found it much less stable than 4.2, with frequent segmentation faults.
 Hopefully things improve in a patch.
-A key change to the engine is the addition of TileMapLayer nodes to replace the old TileMap.
+A key change to the engine is the addition of `TileMapLayer` nodes to replace the old `TileMap`.
 I wanted to try this out as I may migrate my other game over.
-I'm not yet convinced there's great improvement over TileMap.
+I'm not yet convinced there's great improvement over `TileMap`.
 
 I started by following the [2D Platformer Quick Start Guide](https://www.youtube.com/watch?v=43c-Sm5GMbc) tutorial
 by [Chris' Tutorials](https://www.youtube.com/@ChrisTutorialsYT) on YouTube.

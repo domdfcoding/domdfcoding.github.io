@@ -1,0 +1,10 @@
+<div class="col-sm-8 mt-3 mt-md-0">
+  <div class="row {% if include.caption %}mb-0{% else %}mb-3{% endif %} justify-content-center">
+    {% include figure.liquid loading="eager" figure_class="mb-0" path=include.path alt=include.alt title=include.alt class="img-fluid rounded z-depth-1" %}
+  </div>
+  {% if include.caption %}<div class="row mb-0 justify-content-center">
+    <div class="caption mt-1">
+      {{ include.caption }}
+    </div>
+  </div>{% endif %}
+</div>
