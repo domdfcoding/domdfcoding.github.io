@@ -8,7 +8,7 @@ title: "Games"
 
 ## Cabal Chemist [<i class="fa-brands fa-itch-io"></i>](https://potbanksoftware.itch.io/cabal-chemist)
 
-<sup>Released 29thth July 2024</sup>
+<sup>Released 29th July 2024</sup>
 
 <img src="/assets/images/cabal_chemist_screenshot.png" width=400 height=300 alt="Screenshot of the game Cabal Chemist">
 
