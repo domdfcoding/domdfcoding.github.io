@@ -18,6 +18,7 @@ group :jekyll_plugins do
     gem "jekyll-tabs"
     gem "jekyll-terser", :git => "https://github.com/RobertoJBeltran/jekyll-terser.git"
     gem "jekyll-toc"
+    gem "jekyll-sass-converter", "~> 3.1.0"
 
     gem 'classifier-reborn'  # used for content categorization during the build
 end

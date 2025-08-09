@@ -85,6 +85,8 @@ kramdown:
 # Sass/SCSS
 sass:
   style: compressed
+  verbose: true
+  silence_deprecations: [import]
 
 timezone: "Europe/London" # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 

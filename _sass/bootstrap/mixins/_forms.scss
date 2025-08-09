@@ -8,6 +8,9 @@
 // WebKit's default styles, but applicable to a wider range of browsers. Its
 // usability and accessibility should be taken into account with any change.
 //
+
+@use "sass:color";
+
 // Example usage: change the default blue border and shadow to white for better
 // contrast against a dark gray background.
 @mixin form-control-focus($ignore-warning: false) {
@@ -160,8 +163,8 @@
 
       &:checked {
         ~ .custom-control-label::before {
-          border-color: lighten($color, 10%);
-          @include gradient-bg(lighten($color, 10%));
+          border-color: color.adjust($color, $lightness: 10%);
+          @include gradient-bg(color.adjust($color, $lightness: 10%));
         }
       }
 

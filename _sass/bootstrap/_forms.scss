@@ -1,5 +1,7 @@
 // stylelint-disable selector-no-qualifying-type
 
+@use "sass:map";
+
 //
 // Textual form controls
 //
@@ -260,7 +262,7 @@ textarea.form-control {
 // server side validation.
 
 @each $state, $data in $form-validation-states {
-  @include form-validation-state($state, map-get($data, color), map-get($data, icon));
+  @include form-validation-state($state, map.get($data, color), map.get($data, icon));
 }
 
 // Inline forms
