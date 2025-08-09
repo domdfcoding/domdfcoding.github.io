@@ -95,6 +95,11 @@ layout: default
         {% toc %}
       </div>
       <hr>
+    {% elsif page.toc and page.toc.sidebar %}
+      <div id="table-of-contents" class="d-lg-none d-md-block">
+        {% toc %}
+      </div>
+      <hr>
     {% endif %}
     <div id="markdown-content">
       {{ content }}
