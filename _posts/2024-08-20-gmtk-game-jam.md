@@ -13,7 +13,7 @@ toc:
 thumbnail: assets/img/gmtk-game-jam-2024-images/key-art-800x600.png
 ---
 
-{% include captioned_figure.liquid 
+{% include captioned_figure.liquid
   path="assets/img/gmtk-game-jam-2024-images/key-art-800x600.png"
   alt="Size Matters Screenshot"
   caption='Screenshot of my game jam entry "Size Matters"'
@@ -36,7 +36,7 @@ You're on the back foot though as each doll is progressively smaller.
 , CC BY-SA 2.0 &lt;https://creativecommons.org/licenses/by-sa/2.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:DGJ_4705_-_Russian_Matryoshka_(4312413546).jpg">Dennis G. Jarvis, via Wikimedia Commons</a></i>
 {% endcapture %}
 
-{% include captioned_figure.liquid 
+{% include captioned_figure.liquid
   path="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/DGJ_4705_-_Russian_Matryoshka_%284312413546%29.jpg/512px-DGJ_4705_-_Russian_Matryoshka_%284312413546%29.jpg?20180302202234"
   alt="DGJ 4705 - Russian Matryoshka (4312413546)"
   caption=dolls_caption

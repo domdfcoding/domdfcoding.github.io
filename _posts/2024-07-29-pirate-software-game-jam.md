@@ -16,7 +16,7 @@ thumbnail: assets/img/cabal_chemist_screenshot.png
 # image_caption: Screenshot of my game jam entry "Cabal Chemist"
 ---
 
-{% include captioned_figure.liquid 
+{% include captioned_figure.liquid
   path="assets/img/cabal_chemist_screenshot.png"
   alt="Cabal Chemist Screenshot"
   caption='Screenshot of my game jam entry "Cabal Chemist"'
