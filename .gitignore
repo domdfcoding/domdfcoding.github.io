@@ -2,3 +2,11 @@
 _site/
 .vscode
 Gemfile.lock
+.bundle
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+.ruby-version
+assets/libs/
+node_modules/
+vendor

@@ -1,0 +1,30 @@
+# this file contains the social media links and usernames of the author
+# the commented lines are the default social media links supported by the template
+# the socials will be displayed in the order they are defined here
+
+# blogger_url: # your blogger URL
+# bluesky_url: # your bluesky URL
+# discord_id: # your discord id (18-digit unique numerical identifier)
+# email: you@example.com # your email address
+# facebook_id: # your facebook id
+# flickr_id: # your flickr id
+github_username: potbanksoftware # your GitHub user name
+# gitlab_username: # your GitLab user name
+# hal_id: # your HAL id (https://hal.science/)
+instagram_id: potbanksoftware # your instagram id
+threads_id: potbanksoftware # your instagram id
+itch_id: potbanksoftware # your instagram id
+# kaggle_id: # your kaggle id
+# keybase_username: # your keybase user name
+# lattes_id: # your ID on Lattes (Brazilian Lattes CV)
+# leetcode_id: # your LeetCode id
+# mastodon_username: # your mastodon instance+username in the format instance.tld/@username
+rss_icon: true # comment this line to hide the RSS icon
+# stackoverflow_id: # your stackoverflow id
+# unsplash_id: # your unsplash id
+# wikidata_id: # your wikidata id
+# wikipedia_id: # your wikipedia id (Case sensitive)
+# custom_social: # can be any name here other than the ones already defined above
+#   logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
+#   title: Custom Social
+#   url: https://www.alberteinstein.com/

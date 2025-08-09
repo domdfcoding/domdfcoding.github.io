@@ -1,0 +1,22 @@
+
+/*
+ Blog post author info
+ From https://github.com/manid2/lone-wolf-theme/blob/main/_sass/lone-wolf-theme/_extend-bs4.scss
+ MIT Licenced
+ Copyright (c) 2019 Mani Kumar
+======================*/
+.blog-post-author {
+      &-avatar {
+          width: 64px;
+          height: 64px;
+          padding: 0.15rem;
+
+          @include media-breakpoint-down(md) {
+              width: 32px;
+              height: 32px;
+              padding: 0.10rem;
+          }
+      }
+
+  }
+

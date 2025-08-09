@@ -4,11 +4,16 @@ title:  "Pirate Software Game Jam July 2024"
 # excerpt: "A test of the blog."
 date: 2024-07-29 18:06:43 +0100
 categories: game-jam
+tags: game game-jam itch cabal-chemist
 author: Dominic Davis-Foster
+featured: true
+toc:
+  beginning: true
 
-image: assets/images/cabal_chemist_screenshot.png
-image_alt: Cabal Chemist Screenshot
-image_caption: Screenshot of my game jam entry "Cabal Chemist"
+thumbnail: assets/img/cabal_chemist_screenshot.png
+# image: assets/img/cabal_chemist_screenshot.png
+# image_alt: Cabal Chemist Screenshot
+# image_caption: Screenshot of my game jam entry "Cabal Chemist"
 ---
 
 ## Introduction
@@ -19,26 +24,26 @@ This month's [Pirate Software Game Jam](https://itch.io/jam/pirate) was the firs
 
 "Cabal Chemist" was developed in Godot 4. I've only been using Godot for about a month but as a Python programmer I found GDScript very approachable.
 
-![Screenshot of the first prototype](/assets/images/pirate-software-jam-july-2024-images/initial-prototype.png)
+![Screenshot of the first prototype](/assets/img/pirate-software-jam-july-2024-images/initial-prototype.png)
 
 This is a screenshot of the first prototype of the game from 22nd July, before it even had a name.
 The ingredients have their own randomised effects but they're not yet combined.
 That came with the next prototype on the 23rd, together with the spot to enter the drink's name.
 
-![Screenshot of the second prototype](/assets/images/pirate-software-jam-july-2024-images/prototype-with-effects.png)
+![Screenshot of the second prototype](/assets/img/pirate-software-jam-july-2024-images/prototype-with-effects.png)
 
 *Screenshot of the 2nd Prototype*
 
 The prototype from the 25th implemented the sticky-note display of previous drinks and scoring, which has an aggressive mountain-shaped curve for score (0-100) against overall drink effect (-100% to 100%), to have sharp drop-offs either side of the optimal value (which is a closely guarded secret.)
 
-![Screenshot of the second prototype](/assets/images/pirate-software-jam-july-2024-images/prototype-with-scoring.png)
+![Screenshot of the second prototype](/assets/img/pirate-software-jam-july-2024-images/prototype-with-scoring.png)
 
 *Screenshot of the 3rd Prototype*
 
 By this point the game needs minimal polish for the jam. There's no art or sound, although if turned into a proper game it'd be styled with chemistry apparatus and an evidence board, with the combined drink effects shown on a clipboard, and bubbling sounds like you'd hear in a chemistry lab. It also needs a lot of balance as there are almost certainly some over powered ingredients and near impossible to actually "win" by getting enough points.
 
 
-![Mockup of the UI for the finished game](/assets/images/pirate-software-jam-july-2024-images/ui_mockup.png)
+![Mockup of the UI for the finished game](/assets/img/pirate-software-jam-july-2024-images/ui_mockup.png)
 
 *Mockup of the UI for the "finished" game*
 

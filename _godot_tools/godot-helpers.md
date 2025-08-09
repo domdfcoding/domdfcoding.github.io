@@ -1,13 +1,14 @@
 ---
 layout: page
-toc: true
-output: true
-excerpt: "<tt>godot-helpers</tt> is a Godot addon with various useful scenes and classes."
+toc:
+  sidebar: left
+# output: true
 
 title: "Godot Helpers"
+description: "<tt>godot-helpers</tt> is a Godot addon with various useful scenes and classes."
+category: [godot-tools]
+github_url: https://github.com/potbanksoftware/godot-helpers
 ---
-
-## [<i class="fa-brands fa-github"></i>](https://github.com/potbanksoftware/godot-helpers)
 
 `godot-helpers` is an MIT Licenced Godot addon with various useful scenes and classes.
 
@@ -172,11 +173,11 @@ Requires the button to have a theme set.
 Example Usage
 
 ```gdscript
-	if Input.is_action_just_pressed("ui_accept"):
-		ButtonPress.set_simulate_press_texture(self)
-		# Do something
+if Input.is_action_just_pressed("ui_accept"):
+	ButtonPress.set_simulate_press_texture(self)
+	# Do something
 
-	if Input.is_action_just_released("ui_accept"):
-		ButtonPress.unset_simulate_press_texture(self)
+if Input.is_action_just_released("ui_accept"):
+	ButtonPress.unset_simulate_press_texture(self)
 ```
 

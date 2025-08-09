@@ -1,13 +1,13 @@
 ---
 layout: page
-toc: true
-output: true
-excerpt: "<tt>godot-menus</tt> is a Godot addon with scenes for building basic menus."
+# toc: true
+# output: true
+description: "<tt>godot-menus</tt> is a Godot addon with scenes for building basic menus."
 
 title: "Godot Menus"
+category: [godot-tools]
+github_url: https://github.com/potbanksoftware/godot-menus
 ---
-
-## [<i class="fa-brands fa-github"></i>](https://github.com/potbanksoftware/godot-menus)
 
 `godot-menus` is an MIT Licenced Godot addon with scenes for building basic menus.
 

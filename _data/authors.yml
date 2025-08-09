@@ -1,0 +1,9 @@
+# blog authors
+authors:
+  - name: "Dominic Davis-Foster"
+    handle: "domdfcoding"
+    avatar: "profile-pictures/domdfcoding.jpeg"
+    follow:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: https://github.com/domdfcoding

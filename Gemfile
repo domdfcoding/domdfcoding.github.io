@@ -1,24 +1,33 @@
-# frozen_string_literal: true
-
 source "https://rubygems.org"
 
-# gem "rails"
-
 gem "jekyll", "~> 4.4"
-gem "jekyll-sitemap", "~> 1.4"
-gem "jekyll-paginate", "~> 1.1"
 
-gem "jekyll-gist", "~> 1.5"
+# Core plugins that directly affect site building
+group :jekyll_plugins do
+    gem "jekyll-archives-v2"
+    gem "jekyll-sitemap", "~> 1.4"
+    gem "jekyll-paginate-v2"
+    gem "jekyll-email-protect"
+    gem "jekyll-feed", "~> 0.17.0"
+    gem "jemoji", "~> 0.13.0"
+    gem "jekyll-get-json"
+    gem "jekyll-imagemagick"
+    gem "jekyll-link-attributes"
+    gem "jekyll-minifier"
+    gem "jekyll-regex-replace"
+    gem "jekyll-tabs"
+    gem "jekyll-terser", :git => "https://github.com/RobertoJBeltran/jekyll-terser.git"
+    gem "jekyll-toc"
 
-gem "jekyll-feed", "~> 0.17.0"
+    gem 'classifier-reborn'  # used for content categorization during the build
+end
 
-gem "jekyll-seo-tag", "~> 2.8"
-gem "jemoji", "~> 0.13.0"
-gem "jekyll-include-cache", "~> 0.2.1"
-
-gem "jekyll-remote-theme", git: 'https://github.com/benbalter/jekyll-remote-theme'
-
-
-gem "jekyll-data", "~> 1.1"
-
-gem "jekyll-toc", git: 'https://github.com/potbanksoftware/jekyll-toc', branch: 'my0150'
+# Gems for development or external data fetching (outside :jekyll_plugins)
+group :other_plugins do
+    gem 'css_parser'
+    gem 'feedjira'
+    gem 'httparty'
+    # gem 'terser'         # used by jekyll-terser
+    # gem 'unicode_utils' -- should be already installed by jekyll
+    # gem 'webrick' -- should be already installed by jekyll
+end

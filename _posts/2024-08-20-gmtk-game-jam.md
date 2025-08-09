@@ -4,11 +4,16 @@ title:  "Game Maker's Toolkit Game Jam August 2024"
 # excerpt: "A test of the blog."
 date: 2024-08-20 08:00:00 +0100
 categories: game-jam
-author: Dominic Davis-Foster
+tags: game game-jam itch size-matters gmtk
+author: domdfcoding
+featured: true
+toc:
+  beginning: true
 
-image: assets/images/gmtk-game-jam-2024-images/key-art-800x600.png
-image_alt: Size Matters Screenshot
-image_caption: Screenshot of my game jam entry "Size Matters"
+thumbnail: assets/img/gmtk-game-jam-2024-images/key-art-800x600.png
+# image: assets/img/gmtk-game-jam-2024-images/key-art-800x600.png
+# image_alt: Size Matters Screenshot
+# image_caption: Screenshot of my game jam entry "Size Matters"
 ---
 
 ## Introduction
