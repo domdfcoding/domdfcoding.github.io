@@ -5,14 +5,14 @@
   {% assign show_owner = true %}
 {% endif %}
 
-{% assign lang = site.lang | split: '-' | first %}
+{% assign lang = repo_trophies.lang | split: '-' | first %}
 
 {% case lang %}
   {% when 'pt' %}
-    {% assign lang = site.lang %}
+    {% assign lang = repo_trophies.lang %}
 
   {% when 'zh' %}
-    {% assign lang_last = site.lang | split: '-' | last %}
+    {% assign lang_last = repo_trophies.lang | split: '-' | last %}
     {% case lang_last %}
       {% when 'cn', 'sg', 'my', 'hans' %}
         {% assign lang = 'cn' %}
