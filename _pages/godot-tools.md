@@ -6,7 +6,7 @@ permalink: /godot-tools/
 description: Addons/plugins for Godot and associated tools.
 nav: true
 nav_order: 2
-display_categories: [godot-tools]
+display_categories: [godot-addons, godot-tools]
 horizontal: false
 ---
 

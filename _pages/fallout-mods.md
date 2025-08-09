@@ -6,7 +6,7 @@ permalink: /fallout-mods/
 description: Mods and tools for Fallout 3 and New Vegas.
 nav: true
 nav_order: 3
-display_categories: [fallout]
+display_categories: [fallout-tools, fallout-mods]
 horizontal: false
 ---
 

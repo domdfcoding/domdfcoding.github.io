@@ -6,7 +6,7 @@ toc:
 
 title: "Godot Helpers"
 description: "<tt>godot-helpers</tt> is a Godot addon with various useful scenes and classes."
-category: [godot-tools]
+category: [godot, godot-addons]
 github_url: https://github.com/potbanksoftware/godot-helpers
 ---
 

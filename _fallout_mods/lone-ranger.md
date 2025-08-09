@@ -3,7 +3,7 @@ layout: page
 title: The Lone Ranger Alternative Start
 description: (coming soon)
 importance: 1
-category: [fallout, mods]
+category: [fallout, fallout-mods, mods]
 ---
 
 In this Fallout New Vegas mod you start as The Lone Ranger from the 1950s TV show.

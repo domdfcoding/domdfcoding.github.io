@@ -3,7 +3,7 @@ layout: page
 title: esp-parser
 description: Python library for parsing Bethesda esp and esm files.
 importance: 1
-category: [fallout]
+category: [fallout, fallout-tools]
 github_url: https://github.com/potbanksoftware/esp-parser
 ---
 

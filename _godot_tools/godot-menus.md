@@ -5,7 +5,7 @@ layout: page
 description: "<tt>godot-menus</tt> is a Godot addon with scenes for building basic menus."
 
 title: "Godot Menus"
-category: [godot-tools]
+category: [godot, godot-addons]
 github_url: https://github.com/potbanksoftware/godot-menus
 ---
 
