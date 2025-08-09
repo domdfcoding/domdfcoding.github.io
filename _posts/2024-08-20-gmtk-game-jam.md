@@ -24,7 +24,7 @@ The theme was "Built to Scale". "It's up to you how you interpret the theme. Whi
 
 My original idea was a fighting game like Mortal Kombat but with Matryoshka nesting dolls.
 As your health degrades the wooden shell cracks, and eventually shatters open.
-But wait! There's another doll inside. You're not out of the fight yet. 
+But wait! There's another doll inside. You're not out of the fight yet.
 You're on the back foot though as each doll is progressively smaller.
 
  <figure>
@@ -32,7 +32,7 @@ You're on the back foot though as each doll is progressively smaller.
 
   <figcaption><i>Matryoshka Dolls by <a title="Dennis G. Jarvis
 , CC BY-SA 2.0 &lt;https://creativecommons.org/licenses/by-sa/2.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:DGJ_4705_-_Russian_Matryoshka_(4312413546).jpg">Dennis G. Jarvis, via Wikimedia Commons</a></i></figcaption>
-</figure> 
+</figure>
 
 I put together a prototype, but the control scheme (there's a ragdoll underneath the static sprite) wasn't very easy to control with AI.
 It needs to fling itself at your doll, then reset back to a neutral position and try to dodge attacks.

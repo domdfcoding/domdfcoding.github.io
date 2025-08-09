@@ -17,4 +17,3 @@ They've tasked you, a washed-up chemist, to design these drinks. Choose your ing
 <!-- [Pirate Software Game Jam](https://itch.io/jam/pirate) July 2024 Entry. The theme was "Shadows and Alchemy". -->
 
 <iframe frameborder="0" src="https://itch.io/embed/2860709" width="552" height="167"><a href="https://potbanksoftware.itch.io/cabal-chemist">Cabal Chemist by potbanksoftware</a></iframe>
-

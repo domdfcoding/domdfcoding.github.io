@@ -50,7 +50,7 @@ socials_in_search: true
 posts_in_search: true
 
 # Includes & excludes
-include: 
+include:
   - _scripts
   - _pages
 exclude:
@@ -487,4 +487,3 @@ third_party_libraries:
       css: "https://cdn.jsdelivr.net/npm/venobox@{{version}}/dist/venobox.min.css"
       js: "https://cdn.jsdelivr.net/npm/venobox@{{version}}/dist/venobox.min.js"
     version: "2.1.8"
-

@@ -98,7 +98,7 @@ Potbank Software is a one man indie game developer in Stoke on Trent, UK.
     </a>
   </div>
 </div>
-  
+
 
 ## The Logo
 

@@ -21,4 +21,3 @@ Destroy vines, push rocks, open gates, and boost each other up to reach the goal
 [Game Maker's Toolkit Game Jam 2024](https://itch.io/jam/gmtk-2024) Entry. The theme was "Built to Scale".
 
 <iframe frameborder="0" src="https://itch.io/embed/2907555" width="552" height="167"><a href="https://potbanksoftware.itch.io/size-matters">Size Matters by potbanksoftware</a></iframe>
-

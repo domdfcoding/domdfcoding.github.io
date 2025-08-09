@@ -180,4 +180,3 @@ if Input.is_action_just_pressed("ui_accept"):
 if Input.is_action_just_released("ui_accept"):
 	ButtonPress.unset_simulate_press_texture(self)
 ```
-
