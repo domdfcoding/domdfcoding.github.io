@@ -250,7 +250,7 @@ imagemagick:
     - ".jpeg"
     - ".png"
     - ".tiff"
-    - ".gif"
+    # - ".gif"  # Unsupported bu imagemagick
   output_formats:
     webp: "-quality 85"
 
