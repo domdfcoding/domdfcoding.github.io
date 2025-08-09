@@ -1,0 +1,4 @@
+*.xcf
+_site/
+.vscode
+Gemfile.lock
