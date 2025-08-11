@@ -33,7 +33,7 @@
     "artwork": "5",
     "audio": "5",
     "average": "5",
-    "engine": "Godot (Desktop, debug build)"
+    "engine": "Godot (Desktop, <a href='/blog/2025/game-jam-pitfalls/#uploading-a-debug-build'>debug build</a>)"
   },
   {
     "rank": "4",
