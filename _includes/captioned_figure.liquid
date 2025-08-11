@@ -1,4 +1,4 @@
-<div class="col-sm-8 mt-3 mt-md-0">
+{% if include.class %}<div class="{{ include.class }}">{% else %}<div class="col-8 mt-3 mt-md-0">{% endif %}
   <div class="row {% if include.caption %}mb-0{% else %}mb-3{% endif %} justify-content-center">
     {% include figure.liquid loading="eager" figure_class="mb-0" path=include.path alt=include.alt title=include.alt class="img-fluid rounded z-depth-1" %}
   </div>
