@@ -90,7 +90,7 @@ RECORDECA, in the words of the developers, "is a revolutionary spin on the rhyth
 
 I liked the game enough to adapt an old project, converting a DJ Hero turntable to work with PC, into a controller to play RECORDECA. Keep an eye on this blog for a post about that soon.
 
-My only wish would be for the point you have to hit the notes at to be on the side of the record rather than the top, which is how DJ Hero did it and how they keys are on the keyboard - that felt more natural to me. The developers are looking at adding an option for that now voting is over.
+My only wish would be to move the point you hit the notes at to the side of the record, rather than the top. That would match how DJ Hero did it and how the keys are on the keyboard, and feels more natural to me. The developers are looking at adding an option for that now voting is over.
 
 
 <h3 class="invisible">Tickets, Please!</h3>
