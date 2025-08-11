@@ -6,7 +6,6 @@ date: 2024-07-29 18:06:43 +0100
 categories: game-jam
 tags: game game-jam itch cabal-chemist
 author: Dominic Davis-Foster
-featured: true
 toc:
   beginning: true
 
