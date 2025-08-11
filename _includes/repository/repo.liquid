@@ -1,35 +1,35 @@
 {% assign repo_url = include.repository | split: '/' %}
-{% if site.data.repositories.github_users contains repo_url.first %}
-  {% assign show_owner = false %}
-{% else %}
-  {% assign show_owner = true %}
-{% endif %}
+{%- if site.data.repositories.github_users contains repo_url.first %}
+  {%- assign show_owner = false %}
+{%- else %}
+  {%- assign show_owner = true %}
+{%- endif %}
 
-{% assign lang = repo_trophies.lang | split: '-' | first %}
+{%- assign lang = repo_trophies.lang | split: '-' | first %}
 
-{% case lang %}
-  {% when 'pt' %}
-    {% assign lang = repo_trophies.lang %}
+{%- case lang %}
+  {%- when 'pt' %}
+    {%- assign lang = repo_trophies.lang %}
 
-  {% when 'zh' %}
-    {% assign lang_last = repo_trophies.lang | split: '-' | last %}
-    {% case lang_last %}
-      {% when 'cn', 'sg', 'my', 'hans' %}
-        {% assign lang = 'cn' %}
-      {% when 'tw', 'hk', 'mo', 'hant' %}
-        {% assign lang = 'zh-tw' %}
-    {% endcase %}
+  {%- when 'zh' %}
+    {%- assign lang_last = repo_trophies.lang | split: '-' | last %}
+    {%- case lang_last %}
+      {%- when 'cn', 'sg', 'my', 'hans' %}
+        {%- assign lang = 'cn' %}
+      {%- when 'tw', 'hk', 'mo', 'hant' %}
+        {%- assign lang = 'zh-tw' %}
+    {%- endcase %}
 
     {% comment %} Add a new language using when... if needed {% endcomment %}
     {% comment %} If you still encounter language-display issues, check the available locale codes in github-readme-stats (different from ISO-639 standard used in your website) {% endcomment %}
     {% comment %} https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file#available-locales {% endcomment %}
-{% endcase %}
+{%- endcase %}
 
-{% if site.data.repositories.repo_description_lines_max %}
-  {% assign max_lines = site.data.repositories.repo_description_lines_max %}
-{% else %}
-  {% assign max_lines = 2 %}
-{% endif %}
+{%- if site.data.repositories.repo_description_lines_max %}
+  {%- assign max_lines = site.data.repositories.repo_description_lines_max %}
+{%- else %}
+  {%- assign max_lines = 2 %}
+{%- endif %}
 
 <div class="repo p-2 text-center">
   <a href="https://github.com/{{ include.repository }}">

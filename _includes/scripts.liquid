@@ -41,7 +41,7 @@
   <script defer src="{{ '/assets/js/masonry.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
 {% endif %}
 
-{% if page.mermaid and page.mermaid.enabled %}
+{%- if page.mermaid and page.mermaid.enabled %}
   <!-- Mermaid and D3 -->
   <script
     defer
@@ -49,7 +49,7 @@
     integrity="{{ site.third_party_libraries.mermaid.integrity.js }}"
     crossorigin="anonymous"
   ></script>
-  {% if page.mermaid.zoomable %}
+  {%- if page.mermaid.zoomable %}
     <script
       defer
       src="{{ site.third_party_libraries.d3.url.js }}"
@@ -60,7 +60,7 @@
   <script defer src="{{ '/assets/js/mermaid-setup.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
 {% endif %}
 
-{% if page.map %}
+{%- if page.map %}
   <!-- Leaflet -->
   <script
     src="{{ site.third_party_libraries.leaflet.url.js }}"
@@ -70,7 +70,7 @@
   <script defer src="{{ '/assets/js/leaflet-setup.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
 {% endif %}
 
-{% if page.chart and page.chart.chartjs %}
+{%- if page.chart and page.chart.chartjs %}
   <!-- Chart.js -->
   <script
     defer
@@ -81,7 +81,7 @@
   <script defer src="{{ '/assets/js/chartjs-setup.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
 {% endif %}
 
-{% if page.chart and page.chart.echarts %}
+{%- if page.chart and page.chart.echarts %}
   <!-- ECharts -->
   <script
     src="{{ site.third_party_libraries.echarts.url.js.library }}"
@@ -98,7 +98,7 @@
   <script defer src="{{ '/assets/js/echarts-setup.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
 {% endif %}
 
-{% if page.chart and page.chart.vega_lite %}
+{%- if page.chart and page.chart.vega_lite %}
   <!-- Vega -->
   <script
     defer
@@ -121,7 +121,7 @@
   <script defer src="{{ '/assets/js/vega-setup.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
 {% endif %}
 
-{% if page.tikzjax %}
+{%- if page.tikzjax %}
   <!-- Tikzjax -->
   <script
     defer
@@ -147,12 +147,12 @@
   <script defer src="{{ '/assets/js/zoom.js' | relative_url | bust_file_cache }}"></script>
 {% endif %}
 
-{% if page.toc and page.toc.sidebar %}
+{%- if page.toc and page.toc.sidebar %}
   <!-- Sidebar Table of Contents -->
   <script defer src="{{ '/assets/js/bootstrap-toc.min.js' | relative_url | bust_file_cache }}"></script>
 {% endif %}
 
-{% if page.pretty_table %}
+{%- if page.pretty_table %}
   <!-- Bootstrap Table -->
   <script
     defer
@@ -175,14 +175,14 @@
   <script async src="https://badge.dimensions.ai/badge.js"></script>
 {% endif %}
 
-{% if site.enable_progressbar %}
+{%- if site.enable_progressbar %}
   <!-- Scrolling Progress Bar -->
   <script defer src="{{ '/assets/js/progress-bar.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
 {% endif %}
 
-{% if page.images %}
+{%- if page.images %}
   <!-- Image Layouts -->
-  {% if page.images.compare %}
+  {%- if page.images.compare %}
     <script
       defer
       src="{{ site.third_party_libraries.img-comparison-slider.url.js }}"
@@ -190,7 +190,7 @@
       crossorigin="anonymous"
     ></script>
   {% endif %}
-  {% if page.images.lightbox2 %}
+  {%- if page.images.lightbox2 %}
     <script
       defer
       src="{{ site.third_party_libraries.lightbox2.url.js }}"
@@ -198,10 +198,10 @@
       crossorigin="anonymous"
     ></script>
   {% endif %}
-  {% if page.images.photoswipe %}
+  {%- if page.images.photoswipe %}
     <script defer src="{{ '/assets/js/photoswipe-setup.js' | relative_url }}" type="module"></script>
   {% endif %}
-  {% if page.images.slider %}
+  {%- if page.images.slider %}
     <script
       defer
       src="{{ site.third_party_libraries.swiper.url.js }}"
@@ -209,14 +209,14 @@
       crossorigin="anonymous"
     ></script>
   {% endif %}
-  {% if page.images.spotlight %}
+  {%- if page.images.spotlight %}
     <script
       defer
       src="{{ site.third_party_libraries.spotlight.url.js }}"
       crossorigin="anonymous"
     ></script>
   {% endif %}
-  {% if page.images.venobox %}
+  {%- if page.images.venobox %}
     <script
       defer
       src="{{ site.third_party_libraries.venobox.url.js }}"
@@ -227,12 +227,12 @@
   {% endif %}
 {% endif %}
 
-{% if page.tabs %}
+{%- if page.tabs %}
   <!-- Jekyll Tabs -->
   <script src="{{ '/assets/js/tabs.min.js' | relative_url | bust_file_cache }}"></script>
 {% endif %}
 
-{% if page.table %}
+{%- if page.table %}
   <!-- bootstrap-table -->
   <script
     defer
