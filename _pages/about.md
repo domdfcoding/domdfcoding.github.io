@@ -47,7 +47,7 @@ Potbank Software is a one man indie game developer in Stoke on Trent, UK.
       <div class="card h-100 hoverable">
         {% include figure.liquid loading="eager" path="/assets/img/cabal_chemist_screenshot.png" sizes = "250px" alt="Games" class="card-img-top" %}
         <div class="card-body">
-          <h3 class="card-title">Games</h3>
+          <h3 class="card-title no-anchor">Games</h3>
           <p class="card-text">Games developed by Potbank Software.</p>
         </div>
       </div>
@@ -58,7 +58,7 @@ Potbank Software is a one man indie game developer in Stoke on Trent, UK.
       <div class="card h-100 hoverable">
         {% include figure.liquid loading="eager" path="/assets/img/sam-clarke-ZEfFgaXVaV4-unsplash.jpg" sizes = "250px" alt="Games" class="card-img-top" %}
         <div class="card-body">
-          <h3 class="card-title">Fallout Mods</h3>
+          <h3 class="card-title  no-anchor">Fallout Mods</h3>
           <p class="card-text">Mods and tools for Fallout 3 and New Vegas.</p>
         </div>
         <div class="image-credit mt-auto mx-auto">
@@ -74,7 +74,7 @@ Potbank Software is a one man indie game developer in Stoke on Trent, UK.
       <div class="card h-100 hoverable">
         {% include figure.liquid loading="eager" path="/assets/img/godot_logo.png" sizes = "250px" alt="Godot Addons" class="card-img-top" %}
         <div class="card-body">
-          <h3 class="card-title">Godot Addons</h3>
+          <h3 class="card-title  no-anchor">Godot Addons</h3>
           <p class="card-text">Addons/plugins for Godot and associated tools.</p>
         </div>
       </div>
@@ -85,7 +85,7 @@ Potbank Software is a one man indie game developer in Stoke on Trent, UK.
       <div class="card h-100 hoverable">
         {% include figure.liquid loading="eager" path="/assets/img/florian-klauer-mk7D-4UCfmg-unsplash.jpg" sizes = "250px" alt="Blog" class="card-img-top" %}
         <div class="card-body">
-          <h3 class="card-title">Blog</h3>
+          <h3 class="card-title  no-anchor">Blog</h3>
           <p class="card-text">
             Development blog.
           </p>
