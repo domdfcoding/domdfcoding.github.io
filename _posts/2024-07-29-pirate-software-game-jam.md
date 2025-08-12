@@ -10,9 +10,8 @@ toc:
   beginning: true
 
 thumbnail: assets/img/cabal_chemist_screenshot.png
-# image: assets/img/cabal_chemist_screenshot.png
-# image_alt: Cabal Chemist Screenshot
-# image_caption: Screenshot of my game jam entry "Cabal Chemist"
+og_image:
+  image: assets/img/cabal_chemist_screenshot.png
 ---
 
 {% include captioned_figure.liquid

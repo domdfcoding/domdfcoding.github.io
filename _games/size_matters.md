@@ -6,6 +6,8 @@ img: assets/img/gmtk-game-jam-2024-images/key-art-800x600.png
 importance: 1
 category: [games]
 itch_url: (https://potbanksoftware.itch.io/size-matters
+og_image:
+  image: /assets/img/gmtk-game-jam-2024-images/key-art-800x600.png
 ---
 
 ### An Animal Adventure

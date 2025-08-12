@@ -9,8 +9,10 @@ author: domdfcoding
 featured: true
 toc:
   beginning: true
-
-thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Computer_mouse_trap.jpg/330px-Computer_mouse_trap.jpg
+description: "Blog post outlining common game jam pitfalls and how to avoid them"
+thumbnail: /assets/img/game-jam-pitfalls/330px-Computer_mouse_trap.jpg
+og_image:
+  image: /assets/img/game-jam-pitfalls/330px-Computer_mouse_trap.jpg
 ---
 
 {% capture mousetrap_caption %}

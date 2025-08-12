@@ -6,6 +6,8 @@ img: assets/img/mashup-games-jam-2024-images/screenshot.png
 importance: 1
 category: [games]
 itch_url: https://potbanksoftware.itch.io/size-matters
+og_image:
+  image: /assets/img/mashup-games-jam-2024-images/screenshot.png
 ---
 
 <img src="/assets/img/mashup-games-jam-2024-images/screenshot.png" width=400 height=300 alt="Screenshot of the game Gardener's Assistant">

@@ -10,7 +10,10 @@ featured: true
 toc:
   beginning: true
 
+description: "Blog post discussing the 2025 GMTK Game Jam"
 thumbnail: assets/img/gmtk-game-jam-2024-images/key-art-800x600.png
+og_image:
+  image: assets/img/gmtk-game-jam-2024-images/key-art-800x600.png
 ---
 
 {% include captioned_figure.liquid

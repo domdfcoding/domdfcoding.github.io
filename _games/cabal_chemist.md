@@ -6,6 +6,8 @@ img: assets/img/cabal_chemist_screenshot.png
 importance: 1
 category: [games]
 itch_url: https://potbanksoftware.itch.io/cabal-chemist
+og_image:
+  image: /assets/img/cabal_chemist_screenshot.png
 ---
 
 <img src="/assets/img/cabal_chemist_screenshot.png" width=400 height=300 alt="Screenshot of the game Cabal Chemist">

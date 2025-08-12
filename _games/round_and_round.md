@@ -6,6 +6,8 @@ img: assets/img/gmtk-game-jam-2025-images/630x500_cover_image.png
 importance: 1
 category: [games]
 itch_url: https://potbanksoftware.itch.io/size-matters
+og_image:
+  image: /assets/img/gmtk-game-jam-2025-images/630x500_cover_image.png
 ---
 
 <img src="/assets/img/gmtk-game-jam-2025-images/630x500_cover_image.png" width=400 height=300 alt="Screenshot of the game Round and Round">

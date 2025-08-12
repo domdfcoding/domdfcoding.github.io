@@ -16,3 +16,4 @@ vendor
 *.kra~
 *.bak
 .~lock.*.*#
+assets/img/og

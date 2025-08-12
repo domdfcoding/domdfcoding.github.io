@@ -10,7 +10,10 @@ toc:
   beginning: true
 table: true
 
+description: "Blog post discussing my favourite games from the 2025 GMTK Game Jam"
 thumbnail: assets/img/favourite-games-gmtk-2025-images/top-image.png
+og_image:
+  image: /assets/img/favourite-games-gmtk-2025-images/top-image.png
 ---
 
 {% include captioned_figure.liquid

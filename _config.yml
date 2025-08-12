@@ -9,7 +9,7 @@
 
 # site settings, follows the order used in jekyll-seo-tag plugin
 lang: "en_GB"
-title: blank # the website title (if blank, full name will be used instead)
+title: Potbank Software  # the website title (if blank, full name will be used instead)
 first_name: Potbank
 last_name: Software
 description: "An indie game dev in the Potteries."
@@ -21,7 +21,7 @@ baseurl: "" # the subpath of your site, e.g. "/blog"
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with customised <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: game-design game-developer gamedev game-jam fallout modding godot # add your own keywords or leave empty
 icon: /favicons/apple-touch-icon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 last_updated: false # set to true if you want to display last updated in the footer
@@ -33,7 +33,7 @@ back_to_top: true # set to false to disable the back to top button
 # -----------------------------------------------------------------------------
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
-enable_google_verification: true # enables google site verification
+enable_google_verification: false # enables google site verification
 google_site_verification: cHbg5cdGO7wfHWD_0u6zRDX1fWjzbWtwkr3dviujy6I # your google-site-verification ID (Google Search Console)
 
 enable_bing_verification: false # enables bing site verification
@@ -109,6 +109,8 @@ plugins:
   - jekyll-tabs
   - jekyll-terser
   - jekyll-toc
+  - jekyll-seo-tag
+  - jekyll-og-image
 
 
 # Sitemap settings
@@ -144,7 +146,7 @@ collections:
 # Theme
 # -----------------------------------------------------------------------------
 
-# repo color theme
+# repo colour theme
 repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
@@ -170,8 +172,16 @@ max_width: 930px
 # see https://schema.org/docs/faq.html for more information
 serve_og_meta: false # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
 
+og_image:
+  collections: ["posts", "pages", "games", "godot_tools", "news", "fallout_mods"]
+  output_dir: "assets/img/og"
+  domain: "potbanksoftware.github.io"
+  image: "assets/img/favicons/apple-touch-icon.png"
+  border_bottom:
+    width: 20
+    fill:
+      - "#4285F4"
 
 
 # -----------------------------------------------------------------------------
