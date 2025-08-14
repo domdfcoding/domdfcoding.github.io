@@ -178,6 +178,7 @@ og_image:
   output_dir: "assets/img/og"
   domain: "potbanksoftware.github.io"
   image: "assets/img/favicons/apple-touch-icon.png"
+  force: true  # Always regenerate images
   border_bottom:
     width: 20
     fill:
