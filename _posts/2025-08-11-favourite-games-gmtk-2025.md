@@ -2,6 +2,7 @@
 layout: post
 title:  "My Favourite Games from the GMTK Game Jam August 2025"
 date: 2025-08-11 08:38:00 +0100
+last_updated: 2025-08-14 09:38:00 +0100
 categories: game-jam
 tags: game game-jam itch gmtk
 author: domdfcoding
@@ -213,6 +214,35 @@ The complete list of my favourite games is shown below. You can view the [collec
     </tr>
   </thead>
 </table>
+
+<br>
+
+### Statistics
+
+#### Engines
+
+24 games were playable in a web browser, with the others only available for Windows, Linux and/or Mac.
+
+* Unity -- 14
+  * Web -- 12
+  * Desktop -- 2
+* Godot -- 9
+  * Web -- 6
+  * Desktop -- 3
+* GameMaker (Web) -- 4
+* Bevy (Web) -- 1
+* HTML5 (no engine) -- 1
+* LÖVE -- 1
+
+#### Themes
+
+Many games settled on the same basic interpretation of "loop" - time loops, looping audio, or physical loops such as going round in circles, whirlpools, or actual circles. 
+
+* Physical Loop -- 14
+* Time Loop -- 7
+* Audio Loop -- 3
+* Ouroboros -- 2
+
 
 <script>
 

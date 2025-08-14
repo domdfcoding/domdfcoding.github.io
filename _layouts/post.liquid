@@ -43,7 +43,7 @@ layout: default
         <p class="post-meta">
           Created on {{ page.date | date: '%B %d, %Y' }}
           {% if blog_author %}by {{ blog_author.name }}{% endif %}
-          {% if page.last_updated %}, last updated on {{ page.last_updated | date: '%B %d, %Y' }}{% endif %}
+          {%- if page.last_updated %}, last updated on {{ page.last_updated | date: '%B %d, %Y' }}{% endif %}
           {% if page.meta %}• {{ page.meta }}{% endif %}
         </p>
         {% if blog_author %}<p class="post-meta">{{ blog_author.handle }}
