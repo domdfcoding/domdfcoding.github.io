@@ -2,7 +2,7 @@
 layout: post
 title: "Common Game Jam Pitfalls To Avoid"
 date: 2025-08-11 21:27:00 +0100
-# last_updated: 2025-08-11 21:27:00 +0100
+last_updated: 2025-08-28 11:48:00 +0100
 categories: game-jam
 tags: game game-jam
 author: domdfcoding
@@ -91,3 +91,14 @@ Sticking to a rule, such as always using `snake_case` and having all filenames l
 For godot, see [this section](https://docs.godotengine.org/en/stable/tutorials/best_practices/project_organization.html#case-sensitivity) of the documentation.
 
 
+## Compiling Linux Builds Against Too New glibc
+
+When compiling for Linux (such as custom Godot engine builds, C extensions, or some game engines)
+it is important to bear in mind the version of glibc you're compiling against.
+Builds compiled against a newer version of glibc won't run on Linux distros using an older version,
+so some people might not be able to run your game.
+
+The official Godot builds target glibc 3.28, and Steam now requires glibc 3.31.
+These are old enough to cover almost all still supported distros, as far back as Ubuntu 20.04.
+
+For building Godot and extensions to support older glibc versions, look at https://github.com/godotengine/buildroot.
