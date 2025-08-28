@@ -119,7 +119,7 @@ Sequenseer is a game where you reverse engineer loops of beats to get back to th
 
 Noir Hotel was a last minute entry to this list. Thomas played [my entry](/blog/2025/gmtk-game-jam-2025) shortly before voting closed but I felt I should play his in return. And I'm glad I did.
 
-You've arrived at a hotel, but reception is unmanned. Ringing the bell does nothing, so you decide to make your way to your room. You're faced with a corridor of ten doors, and a card at the end directs you to Room 105. And [what's behind door 105](https://en.wikipedia.org/wiki/Let%27s_Make_a_Deal)? Another corridor, and another puzzle to solve, leading to another puzzle and another. You have to be observant, looking at letters, candles, in mirrors, behind you, and at the passage of time. 
+You've arrived at a hotel, but reception is unmanned. Ringing the bell does nothing, so you decide to make your way to your room. You're faced with a corridor of ten doors, and a card at the end directs you to Room 105. And [what's behind door 105](https://en.wikipedia.org/wiki/Let%27s_Make_a_Deal)? Another corridor, and another puzzle to solve, leading to another puzzle and another. You have to be observant, looking at letters, candles, in mirrors, behind you, and at the passage of time.
 
 I like the aesthetic. It feels old timey, and looks like you're peering through the grid mesh of a [vacuum fluorescent display](https://en.wikipedia.org/wiki/Vacuum_fluorescent_display) or [Nixie tube](https://en.wikipedia.org/wiki/Nixie_tube).
 
@@ -131,7 +131,7 @@ The only change I would make, were this developed into a full game, is to random
 <iframe src="https://itch.io/embed/3766861" width="552" height="167" frameborder="0"><a href="https://m4ngodev.itch.io/ouroboros">OUROBOROS by mango</a></iframe>
 
 Snake but you *want* to eat your tail. You've just got to get it in the right spot.
-While the game looks simple the puzzles can be quite challenging, but the game eases you in gently across its 24 levels. 
+While the game looks simple the puzzles can be quite challenging, but the game eases you in gently across its 24 levels.
 There are some head-scratchers, with with perseverance they're solvable in an "ah, of course!" fashion.
 I found it continuously engaging and never frustrating, just as a puzzle game should be, but still a challenge.
 
@@ -141,7 +141,7 @@ I found it continuously engaging and never frustrating, just as a puzzle game sh
 <iframe src="https://itch.io/embed/3753819" width="552" height="167" frameborder="0"><a href="https://jzucc12.itch.io/please-hold">Please Hold by jzucc12, Lyrical, VirgilRavenback, awesomeflow</a></iframe>
 
 Please Hold is a short game reminiscent of Flash games from the early 2000s.
-The answers to thw questions put to you, you'll have to search the virtual desk. 
+The answers to thw questions put to you, you'll have to search the virtual desk.
 Maybe read your book of dreams or rummage in the fruit loops box.
 
 
@@ -152,7 +152,7 @@ Maybe read your book of dreams or rummage in the fruit loops box.
 In Everyone Hold Hands, you have to make a round paper chain of dolls.
 Sounds simple, right? But the dolls also have coloured bracelets that you have to match, or they won't hold hands.
 
-The art, which the team created themselves, is beautiful, and the game gradually introduces more complex mechanics across its eight levels - multiple colours, multiple loops, and dolls with only one bracelet. Even the start screen teaches you the holding hands mechanic before you can actually start. 
+The art, which the team created themselves, is beautiful, and the game gradually introduces more complex mechanics across its eight levels - multiple colours, multiple loops, and dolls with only one bracelet. Even the start screen teaches you the holding hands mechanic before you can actually start.
 
 
 <h3 class="invisible">Ouroboros Or Not</h3>
@@ -236,7 +236,7 @@ The complete list of my favourite games is shown below. You can view the [collec
 
 #### Themes
 
-Many games settled on the same basic interpretation of "loop" - time loops, looping audio, or physical loops such as going round in circles, whirlpools, or actual circles. 
+Many games settled on the same basic interpretation of "loop" - time loops, looping audio, or physical loops such as going round in circles, whirlpools, or actual circles.
 
 * Physical Loop -- 14
 * Time Loop -- 7

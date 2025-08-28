@@ -69,9 +69,9 @@ This helps with player expectations.
 ## No Details on Controls and How To Play
 
 Make sure to include a screen at the beginning of your game or in the main menu
-explaining how to play the game. Which controls are move? Which interact? 
+explaining how to play the game. Which controls are move? Which interact?
 What's the objective? Don't leave the player guessing what they have to do,
-as they could lose interest. 
+as they could lose interest.
 
 If your game has a pause menu I would include these there as well so the player can refresh their memory.
 
@@ -79,7 +79,7 @@ If your game has a pause menu I would include these there as well so the player 
 ## Filename Case Sensitivity
 
 Many Windows users forget that on other operating systems (including Linux, and macOS in some circumstances)
-have case sensitive filesystems. So if you have a player sprite file called `Player.png`, 
+have case sensitive filesystems. So if you have a player sprite file called `Player.png`,
 while on Windows you can access it as `player.png` as well, on Linux that will fail.
 
 Godot and Unity will not warn you that this is the case (one could call that a bug) and so your export for Linux won't run (properly).
