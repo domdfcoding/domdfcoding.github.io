@@ -4,6 +4,10 @@ title: Sunset Timelapse
 description: Sunset from the Fantasea Bar and Restaurant, Agios Stefanos Avliotes, Corfu, Greece.
 importance: 1
 category: [videos]
+
+img: assets/img/sunset_timelapse_thumbnail.png
+og_image:
+  image: /assets/img/sunset_timelapse_thumbnail.png
 ---
 
 <!-- TODO: thumbnail for category page -->

@@ -12,7 +12,7 @@ lang: "en_GB"
 # title:   # the website title (if blank, full name will be used instead)
 first_name: Dominic
 last_name: Davis-Foster
-description: "An indie game dev in the Potteries."
+description: "Forensic science researcher and programmer"
 url: "https://domdfcoding.github.io"
 baseurl: "" # the subpath of your site, e.g. "/blog"
 

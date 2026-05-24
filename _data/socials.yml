@@ -8,12 +8,14 @@
 # email: you@example.com # your email address
 # facebook_id: # your facebook id
 # flickr_id: # your flickr id
-github_username: potbanksoftware # your GitHub user name
+github_username: domdfcoding
+orcid_id: 0000-0001-8419-0224
+# TODO: orcid
 # gitlab_username: # your GitLab user name
 # hal_id: # your HAL id (https://hal.science/)
-instagram_id: potbanksoftware # your instagram id
-threads_id: potbanksoftware # your instagram id
-itch_id: potbanksoftware # your instagram id
+# instagram_id:  # your instagram id
+# threads_id:  # your instagram id
+# itch_id:  # your instagram id
 # kaggle_id: # your kaggle id
 # keybase_username: # your keybase user name
 # lattes_id: # your ID on Lattes (Brazilian Lattes CV)

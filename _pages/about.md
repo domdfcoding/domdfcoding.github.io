@@ -6,12 +6,12 @@ permalink: /
 
 profile:
   align: right
-  image: logo.svg
+  image: profile-pictures/domdfcoding.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
     <div class="pb-3 text-center">
-        <p class="m-0"><small>Owned by Dominic Davis-Foster</small></p>
-        <p class="m-0">Made in<br><i class="fa-solid fa-location-dot"></i><span class="pl-1">Stoke on Trent, UK</span>
+        <p class="m-0"><a href="https://github.com/domdfcoding">domdfcoding</p>
+        <p class="m-0"><i class="fa-solid fa-location-dot"></i><span class="pl-1">Stoke on Trent, UK</span>
         </p>
     </div>
 
@@ -33,7 +33,7 @@ latest_posts:
   .image-credit, .image-credit span a {font-size: 8pt;}
 </style>
 
-Forensic gunshot residue researcher turned software developer and purveyor of christmas ornaments and electronic kits.
+Forensic gunshot residue researcher turned software developer and purveyor of Christmas ornaments and electronic kits.
 
 
 <div class="row row-cols-2">
