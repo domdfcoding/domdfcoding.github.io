@@ -2,7 +2,7 @@
 layout: projects
 title: Videos
 permalink: /videos/
-# description: 
+# description:
 nav: true
 nav_order: 3
 projects: "videos"
