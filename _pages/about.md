@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: Indie game dev based in the Potteries.
+# subtitle: Indie game dev based in the Potteries.
 
 profile:
   align: right
@@ -16,11 +16,6 @@ profile:
     </div>
 
 social: true # includes social icons at the bottom of the page
-
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: true
@@ -38,68 +33,55 @@ latest_posts:
   .image-credit, .image-credit span a {font-size: 8pt;}
 </style>
 
-Potbank Software is a one man indie game developer in Stoke on Trent, UK.
+Forensic gunshot residue researcher turned software developer and purveyor of christmas ornaments and electronic kits.
 
 
 <div class="row row-cols-2">
   <div class="col mb-4">
-    <a href="/games">
+    <a href="/research">
       <div class="card h-100 hoverable">
-        {% include figure.liquid loading="eager" path="/assets/img/cabal_chemist_screenshot.png" sizes = "250px" alt="Games" class="card-img-top" %}
+        {% include figure.liquid loading="eager" path="/assets/img/cartridge_cases_thumbnail.JPG" sizes = "250px" alt="Cartridge Cases" class="card-img-top" %}
         <div class="card-body">
-          <h3 class="card-title no-anchor">Games</h3>
-          <p class="card-text">Games developed by Potbank Software.</p>
+          <h3 class="card-title no-anchor">Research</h3>
+          <p class="card-text">My organic gunshot residue research.</p>
         </div>
       </div>
     </a>
   </div>
   <div class="col mb-4">
-    <a href="/fallout-mods">
+    <a href="/repositories">
       <div class="card h-100 hoverable">
-        {% include figure.liquid loading="eager" path="/assets/img/sam-clarke-ZEfFgaXVaV4-unsplash.jpg" sizes = "250px" alt="Games" class="card-img-top" %}
+        {% include figure.liquid loading="eager" path="/assets/img/org_grid.png" sizes = "250px" alt="Open Source Software" class="card-img-top" %}
         <div class="card-body">
-          <h3 class="card-title  no-anchor">Fallout Mods</h3>
-          <p class="card-text">Mods and tools for Fallout 3 and New Vegas.</p>
-        </div>
-        <div class="image-credit mt-auto mx-auto">
-          <a></a>
-          Photo by <a href="https://unsplash.com/@clarke_designs_photography">Sam Clarke</a> on <a href="https://unsplash.com/photos/red-and-black-cordless-power-drill-beside-black-and-red-cordless-power-drill-ZEfFgaXVaV4">Unsplash</a>
+          <h3 class="card-title  no-anchor">Repositories</h3>
+          <p class="card-text">My open source software projects.</p>
         </div>
       </div>
     </a>
   </div>
 
   <div class="col mb-4">
-    <a href="/godot-tools">
+    <a href="/videos">
       <div class="card h-100 hoverable">
-        {% include figure.liquid loading="eager" path="/assets/img/godot_logo.png" sizes = "250px" alt="Godot Addons" class="card-img-top" %}
+        {% include figure.liquid loading="eager" path="/assets/img/video_thumbnail.png" sizes = "250px" alt="Videos" class="card-img-top" %}
         <div class="card-body">
-          <h3 class="card-title  no-anchor">Godot Addons</h3>
-          <p class="card-text">Addons/plugins for Godot and associated tools.</p>
+          <h3 class="card-title  no-anchor">Videos</h3>
+          <p class="card-text">My YouTube videos.</p>
         </div>
       </div>
     </a>
   </div>
   <div class="col mb-4">
-    <a href="/blog">
+    <a href="https://potbanksoftware.github.io">
       <div class="card h-100 hoverable">
-        {% include figure.liquid loading="eager" path="/assets/img/florian-klauer-mk7D-4UCfmg-unsplash.jpg" sizes = "250px" alt="Blog" class="card-img-top" %}
+        {% include figure.liquid loading="eager" path="/assets/img/potbank-software-logo.png" sizes = "250px" alt="Potbank Software Logo" class="card-img-top" %}
         <div class="card-body">
-          <h3 class="card-title  no-anchor">Blog</h3>
+          <h3 class="card-title  no-anchor">Potbank Software</h3>
           <p class="card-text">
-            Development blog.
+            My indie game developer.
           </p>
-        </div>
-        <div class="image-credit mt-auto mx-auto">
-          <a></a>
-          Photo by <a href="https://unsplash.com/@florianklauer">Florian Klauer</a> on <a href="https://unsplash.com/photos/black-fayorit-typewriter-with-printer-paper-mk7D-4UCfmg">Unsplash</a>
         </div>
       </div>
     </a>
   </div>
 </div>
-
-
-## The Logo
-
-Potbank Software's logo is a [Bottle Oven](https://en.wikipedia.org/wiki/Bottle_oven), once widely used in the Potteries around Stoke on Trent for firing ceramics.

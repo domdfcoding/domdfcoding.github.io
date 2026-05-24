@@ -9,11 +9,11 @@
 
 # site settings, follows the order used in jekyll-seo-tag plugin
 lang: "en_GB"
-title: Potbank Software  # the website title (if blank, full name will be used instead)
-first_name: Potbank
-last_name: Software
+# title:   # the website title (if blank, full name will be used instead)
+first_name: Dominic
+last_name: Davis-Foster
 description: "An indie game dev in the Potteries."
-url: "https://potbanksoftware.github.io"
+url: "https://domdfcoding.github.io"
 baseurl: "" # the subpath of your site, e.g. "/blog"
 
 # contact_note: >
@@ -126,21 +126,11 @@ defaults:
 # -----------------------------------------------------------------------------
 
 collections:
-  news:
-    defaults:
-      layout: post
-    output: true
   projects:
     output: true
-  games:
+  videos:
     output: true
-  godot_tools:
-    output: true
-    permalink: /godot-tools/:name
-  fallout_mods:
-    output: true
-    permalink: /fallout-mods/:name
-
+    permalink: /videos/:name.html
 
 # -----------------------------------------------------------------------------
 # Theme
@@ -174,9 +164,9 @@ serve_og_meta: false # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
 
 og_image:
-  collections: ["posts", "pages", "games", "godot_tools", "news", "fallout_mods"]
+  collections: ["posts", "pages", "videos"]
   output_dir: "assets/img/og"
-  domain: "potbanksoftware.github.io"
+  domain: "domdfcoding.github.io"
   image: "assets/img/favicons/apple-touch-icon.png"
   border_bottom:
     width: 20
@@ -188,9 +178,9 @@ og_image:
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Blog # blog_name will be displayed in your blog page
-blog_description: Commentary on Potbank Software's game development.
-permalink: /blog/:year/:title/
+blog_name: Research # blog_name will be displayed in your blog page
+blog_description: My academic research on gunshot residue.
+permalink: /research/:year/:title/
 lsi: false # produce an index for related posts
 
 # Pagination
@@ -230,8 +220,8 @@ jekyll-archives:
       tags: "/blog/:type/:name/"
       categories: "/blog/:type/:name/"
 
-display_tags: ["game", "game-jam", "itch", "gmtk", "code"] # these tags will be displayed on the front page of your blog
-display_categories: ["game-jam"] # these categories will be displayed on the front page of your blog
+display_tags: ["undergraduate", "2018"] # these tags will be displayed on the front page of your blog
+# display_categories: ["research"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Link Attributes

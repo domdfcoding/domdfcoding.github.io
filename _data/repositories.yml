@@ -1,13 +1,17 @@
 github_users:
-  # - potbanksoftware # Doesn't work: see https://github.com/anuraghazra/github-readme-stats/discussions/1808
   - domdfcoding
 
 repo_description_lines_max: 2
 
 github_repos:
-  - potbanksoftware/godot-project-parser
-  - potbanksoftware/godot-helpers
-  - potbanksoftware/godot-helpers-demos
-  - potbanksoftware/godot-menus
-  - potbanksoftware/godot-menus-demos
-  - potbanksoftware/esp-parser
+  - domdfcoding/consolekit
+  - domdfcoding/domdf_python_tools
+  - domdfcoding/greppy
+  - domdfcoding/nhle-map
+  - domdfcoding/pottery-map
+  - PyMassSpec/PyMassSpec
+  - python-coincidence/coincidence
+  - python-formate/formate
+  - repo-helper/repo_helper
+  - repo-helper/whey
+  - sphinx-toolbox/sphinx-toolbox
