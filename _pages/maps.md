@@ -13,7 +13,7 @@ nav_order: 6
   {% endfor %}
 </div>
 
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+<div class="maps d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center align-items-lg-stretch" style="gap: 10px">
 
   {% for map in site.data.repositories.maps %}
     {% include map_card.liquid map=map %}
