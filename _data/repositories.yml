@@ -18,6 +18,7 @@ github_repos:
 
 map_repos:
   - domdfcoding/nhle-map
+  - domdfcoding/monuments-historiques
   - domdfcoding/domdf-folium-tools
   - domdfcoding/folium-zoom-state
   - domdfcoding/folium-about-button
@@ -42,3 +43,8 @@ maps:
     image_url: /assets/img/st-nazaire-map-screenshot.png
     desc: Map showing points of interest etc. for Operation Chariot in Saint-Nazaire, France.
     url: https://domdfcoding.github.io/Operation-Chariot/
+
+  - name: Queens Popular Library Books (2023)
+    image_url: /assets/img/queens-library-books-screenshot.png
+    desc: Map showing most popular library books at each library in Queens, New York, in 2023.
+    url: https://domdfcoding.github.io/queens-library-books/
