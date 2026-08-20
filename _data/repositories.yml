@@ -18,6 +18,7 @@ github_repos:
 
 map_repos:
   - domdfcoding/nhle-map
+  - domdfcoding/hes-map
   - domdfcoding/monuments-historiques
   - domdfcoding/domdf-folium-tools
   - domdfcoding/folium-zoom-state
@@ -28,6 +29,11 @@ maps:
     image_url: /assets/img/nhle_map_screenshot.png
     desc: Map showing places on the National Heritage List for England.
     url: https://domdfcoding.github.io/nhle-map/
+
+  - name: HES Map
+    image_url: /assets/img/hes_map_screenshot.png
+    desc: Map showing Scotland's Historic Environment.
+    url: https://domdfcoding.github.io/hes-map/
 
   - name: Monuments Historiques
     image_url: /assets/img/monuments-historiques-screenshot.png
